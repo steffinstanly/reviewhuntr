@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #a9d7fa;
   font-family: 'Open Sans', sans-serif !important;
   color: #000;
   line-height: 1.5;
@@ -75,6 +75,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  margin-bottom: -1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,7 +219,17 @@ img {
 /*********************/
 .wrapper-masthead {
   margin-bottom: 10px;
-  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+55 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #a9d7fa 25%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #a9d7fa 25%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #a9d7fa 25%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a4d2f5',GradientType=0 );
+  /* IE6-9 */
 }
 
 .masthead {
@@ -338,7 +349,7 @@ nav a:hover {
 .posts > .post {
   padding-bottom: 3em;
   padding-top: 2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000;
 }
 .posts > .post:first-child {
   padding-top: 0px;
@@ -368,7 +379,7 @@ nav a:hover {
 .post .post-menu-bar {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .post .post-menu-bar span {
   font-family: monospace;
@@ -389,9 +400,8 @@ nav a:hover {
   width: 100%;
   height: 40px;
   padding: 5px;
-  color: white;
-  border: solid #79b3f4 2px;
-  background-color: #79b3f4;
+  color: #000;
+  background-color: white;
   border-radius: 5px;
   float: right;
 }
@@ -428,7 +438,6 @@ footer {
   left: 0px;
   width: 100%;
   text-align: center;
-  background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 footer a {
   color: white;
