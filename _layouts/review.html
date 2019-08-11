@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="post">
+  {% include suggested-reviews.html %}
+  {% include content-header.html type="page"%}
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  <hr>
+  {% include supporter-cta.html %}
+  {% include suggested-articles.html %}
+</article>
+
+

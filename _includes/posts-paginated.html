@@ -1,0 +1,10 @@
+{% for post in paginator.posts %}
+<article class="post">
+
+  {% include content-header.html type="post" %}
+  <div class="entry">
+      {{ post.excerpt }}
+  </div>
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</article>
+{% endfor %}
