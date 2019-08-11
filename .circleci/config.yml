@@ -34,7 +34,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - ee:96:96:59:fd:85:ed:00:5f:ca:e6:df:58:8f:05:71
+            - a1:43:bc:29:63:03:ed:86:1f:ea:d0:37:ed:61:25:d4
       - run: |
             echo 'export DIRECTORY="_site"' >> "$BASH_ENV"
             echo 'export BRANCH="gh-pages"' >> "$BASH_ENV"
@@ -54,13 +54,13 @@ jobs:
           git add -A
           git commit -m "[skip ci] Deploy updates" 
           git push origin gh-pages -f
-      - run: |
-          set -e
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" \
-              -H "X-Auth-Email: $CF_EMAIL" \
-              -H "X-Auth-Key: $CF_KEY" \
-              -H "Content-Type: application/json" \
-              --data '{"purge_everything":true}'
+      # - run: |
+      #     set -e
+      #     curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" \
+      #         -H "X-Auth-Email: $CF_EMAIL" \
+      #         -H "X-Auth-Key: $CF_KEY" \
+      #         -H "Content-Type: application/json" \
+      #         --data '{"purge_everything":true}'
 
 workflows:
   test-deploy:
