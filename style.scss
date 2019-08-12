@@ -196,27 +196,26 @@ img {
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+55 */
   background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, $oceanBlue 25%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%,$oceanBlue 25%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%,$oceanBlue 25%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #ffffff 50%, $oceanBlue 80%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 50%,$oceanBlue 80%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 50%,$oceanBlue 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a4d2f5',GradientType=0 ); /* IE6-9 */
 
   }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   color: white;
+  background-image: url("/images/logo/SVGLogo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 
   .mh-txt-wrap {
     width: 639px;
-  }
-
-  a {
-    color: white;
   }
 
   @include mobile {
@@ -253,21 +252,21 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $oceanBlue;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
-  border-color: white;
+  border-color: $oceanBlue;
 
   a {
-    color: white;
-    border-color: white;
+    color: $oceanBlue;
+    border-color: $oceanBlue;
 
     &:hover {
-      color: white;
-      border-bottom: 3px solid white;
+      color: $oceanBlue;
+      border-bottom: 3px solid $oceanBlue;
     }
   }
 }
@@ -276,6 +275,7 @@ img {
   margin: -5px 0 0 0;
   color: $white;
   font-size: 16px;
+  color: $oceanBlue;
 
   @include mobile {
     margin: 3px 0;
@@ -284,7 +284,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 50px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -297,19 +297,20 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: black;
     text-align: right;
     font-weight: bold;
     letter-spacing: 1px;
     white-space: nowrap;
 
     &:hover {
-      border-bottom: 1px solid white;
+      color: black;
+      border-bottom: 1px solid black;
     }
 
     @include mobile {
       margin: 0 10px;
-      color: lightcoral;
+      color: black;
     }
   }
 }
@@ -497,4 +498,3 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
-@import "starfield"; // https://codepen.io/saransh/pen/BKJun copy/paste job but this is sooooo cool
