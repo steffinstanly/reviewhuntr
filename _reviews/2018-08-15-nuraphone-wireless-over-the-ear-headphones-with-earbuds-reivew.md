@@ -4,7 +4,7 @@ author: Alan
 title: Nuraphone - Wireless Bluetooth Over Ear Headphones With Earbuds - Review
 date: 2019-08-15 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
+categories: [Headphones]
 description-long: If you have a busy schedule like me, then you might relate to the things you miss out on daily. You don't have time to Netflix and chill. You can't find time to schedule a spa appointment for a little R&R. You don't even have spare time to give yourself a pep talk. Thankfully, the need for recreation, relaxation, and motivation is met by good music. Those who have a jam-packed calendar would agree sometimes all you must do is play some music and relax. Lose your worries and zone out- or in - for a specific timeframe. But given that you can't blast your favorite tracks through your commute, at the gym, and work or class, even listening to music could be a difficult task. You'll need the right equipment.
 ---
 
