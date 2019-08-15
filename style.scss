@@ -39,7 +39,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 0 0px;
   width: 100%;
   margin-bottom: -1px;
 }
@@ -193,26 +193,21 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 10px;
+  padding: 15px;
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+55 */
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 50%, $oceanBlue 80%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 50%,$oceanBlue 80%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 50%,$oceanBlue 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a4d2f5',GradientType=0 ); /* IE6-9 */
-
+  background: #a9d7fa; /* Old browsers */
   }
 
 .masthead {
-  padding: 20px 0;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   color: white;
   background-image: url("/images/logo/SVGLogo.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: left;
 
   .mh-txt-wrap {
     width: 639px;
@@ -284,6 +279,7 @@ img {
 
 nav {
   float: right;
+  right: 0px;
   margin-top: 50px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -361,11 +357,12 @@ nav {
 .post-menu-bar {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   
   span {
     font-family: monospace;
     font-size: 105%;
+    margin: 0px 10px;
   }
 
   .edit-button {
