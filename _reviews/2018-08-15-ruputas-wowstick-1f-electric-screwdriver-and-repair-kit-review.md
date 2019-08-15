@@ -5,7 +5,7 @@ author_url: https://twitter.com/siimonhansson
 title: Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit - Review
 date: 2019-08-15 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
+categories: [Tools]
 description-long: Having a repair kit at home for all your devices is quickly becoming as much of a necessity as having a tool kit, sewing kit, and first aid kit. The Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit is seemingly the perfect one. Not only do you get and extremely stylish electric screwdriver, but you also get essential repair tools as well as 56 different bits (screwheads).
 ---
 
