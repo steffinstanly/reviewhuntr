@@ -4,15 +4,11 @@ author: Victoria Blanco
 title: Yamaha P45 - Digital Piano Review
 date: 2019-08-14 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
+categories: [Musical Instruments]
 description-long: Whether you’re just taking your first steps into the music world, or you already own a keyboard but you’re considering upgrading to a better one… there are some things you might want to consider before purchasing a new digital piano. First, the size of the keyboard, or more precisely, the number of keys. This will determine the higher and lower notes you’ll be able to reach. If you’re a beginner, you might be tempted to buy a small one, thinking you won’t be reading notes way above or below the middle staff. However, you’ll soon find yourself somewhat limited if your keyboard has less than five full octaves. A full-size keyboard has 88 keys (52 white keys and 36 black keys), like a real piano. At first, a beginner might not use the top or bottom octave much, but in time they’ll be extremely useful. For the small increase in price, the extra notes are well worth it.
 ---
 
-Whether you’re just taking your first steps into the music world, or you already own a keyboard but you’re considering upgrading to a better one… there are some things you might want to consider before purchasing a new digital piano.
-
-First, the size of the keyboard, or more precisely, the number of keys. This will determine the higher and lower notes you’ll be able to reach.
-
-If you’re a beginner, you might be tempted to buy a small one, thinking you won’t be reading notes way above or below the middle staff. However, you’ll soon find yourself somewhat limited if your keyboard has less than five full octaves.
+Whether you’re just taking your first steps into the music world, or you already own a keyboard but you’re considering upgrading to a better one… there are some things you might want to consider before purchasing a new digital piano. First, the size of the keyboard, or more precisely, the number of keys. This will determine the higher and lower notes you’ll be able to reach. If you’re a beginner, you might be tempted to buy a small one, thinking you won’t be reading notes way above or below the middle staff. However, you’ll soon find yourself somewhat limited if your keyboard has less than five full octaves.
 
 A full-size keyboard has 88 keys (52 white keys and 36 black keys), like a real piano. At first, a beginner might not use the top or bottom octave much, but in time they’ll be extremely useful. For the small increase in price, the extra notes are well worth it.
 
