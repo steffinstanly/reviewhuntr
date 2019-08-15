@@ -365,7 +365,7 @@ nav a:hover {
 }
 .post .entry {
   line-height: 24px;
-  font-family: monospace;
+  font-family: serif;
 }
 .post .entry a {
   color: #ff3c3c;
@@ -375,11 +375,15 @@ nav a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  align-items: center;
 }
 .post .post-menu-bar span {
   font-family: monospace;
   font-size: 105%;
   margin: 0px 10px;
+}
+.post .post-menu-bar span:first-child {
+  margin-left: 0;
 }
 .post .post-menu-bar .edit-button {
   opacity: 0;
