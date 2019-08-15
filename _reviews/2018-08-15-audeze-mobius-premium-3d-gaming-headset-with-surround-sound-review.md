@@ -4,7 +4,7 @@ author: Alan
 title: Audeze Mobius Premium 3D Gaming Headset with Surround Sound - Review
 date: 2019-08-15 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
+categories: [Headphones]
 description-long: The Audeze Mobius Headset seems to be a great purchase even at a high price tag for those who want superior sound quality in their entertainment experiences. Their comfort level and multiple connectivity options, especially the surround sound and LDAC, add to their value proposition. But questions arise when it comes to these headphones’ compatibility with PS4 and Xbox, which is strange considering that they are marketed as overall gaming headphones instead of being made just for PC gaming. With that, if you are looking for headphones that are optimal for PC gaming and provide fantastic sound quality, then the Audeze Mobius might be for you. Available in copper and blue, these could be an excellent addition to the home of any entertainment enthusiast.
 ---
 
