@@ -6,9 +6,9 @@
 name: ReviewHuntr
 
 # Short bio or description (displayed in the header)
-description: Product Reviews
+description: The best reviews of everything. Ever.
 description-long: | 
-  ReviewHuntr helps you find the best product reviews on the internet. You'll find product reviews for electronics, computers, home appliances, and many other products. ReviewHuntr will help you find great products.
+  ReviewHuntr helps you find the best reviews on the internet. You'll find product reviews for electronics, computers, home appliances, and many other things you might not expect. ReviewHuntr will help you find the best reviews.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/logo/MediumSquareLogo.jpg
 
