@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  background: #a9d7fa;
+  background: #ffffff;
   font-family: 'Open Sans', sans-serif !important;
   color: #000;
   line-height: 1.5;
@@ -73,7 +73,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 0 0px;
   width: 100%;
   margin-bottom: -1px;
 }
@@ -219,29 +219,21 @@ img {
 /*********************/
 .wrapper-masthead {
   margin-bottom: 10px;
+  padding: 15px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+55 */
-  background: #ffffff;
+  background: #a9d7fa;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 50%, #a9d7fa 80%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 50%, #a9d7fa 80%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 50%, #a9d7fa 80%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a4d2f5',GradientType=0 );
-  /* IE6-9 */
 }
 
 .masthead {
-  padding: 20px 0;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   color: white;
   background-image: url("/images/logo/SVGLogo.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: left;
 }
 .masthead .mh-txt-wrap {
   width: 639px;
@@ -282,28 +274,28 @@ img {
 
 .site-name {
   margin: 0;
-  color: #a9d7fa;
+  color: #ffffff;
   cursor: pointer;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
-  border-color: #a9d7fa;
+  border-color: #ffffff;
 }
 .site-name a {
-  color: #a9d7fa;
-  border-color: #a9d7fa;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .site-name a:hover {
-  color: #a9d7fa;
-  border-bottom: 3px solid #a9d7fa;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: #fff;
   font-size: 16px;
-  color: #a9d7fa;
+  color: #ffffff;
 }
 @media screen and (max-width: 640px) {
   .site-description {
@@ -313,6 +305,7 @@ img {
 
 nav {
   float: right;
+  right: 0px;
   margin-top: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -381,11 +374,12 @@ nav a:hover {
 .post .post-menu-bar {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .post .post-menu-bar span {
   font-family: monospace;
   font-size: 105%;
+  margin: 0px 10px;
 }
 .post .post-menu-bar .edit-button {
   opacity: 0;
