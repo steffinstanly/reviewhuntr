@@ -230,12 +230,11 @@ img {
 .masthead {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   color: white;
-  background-image: url("/images/logo/SVGLogo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
+}
+.masthead .logo-wrapper img {
+  height: 100px;
 }
 .masthead .mh-txt-wrap {
   width: 639px;
