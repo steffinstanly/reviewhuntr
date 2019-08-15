@@ -398,36 +398,9 @@ nav {
     background-color: #ffb6b6;
     border-radius: 5px;
     float: right;
+    text-align: right;
+    padding-right: 10px;
 
-    background-image:
-    /* Top jagged */
-    linear-gradient(
-        135deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),
-    linear-gradient(
-        -135deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),
-    /* Bottom jagged */
-    linear-gradient(
-        45deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),
-    linear-gradient(
-        -45deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    );
-    background-position:
-        /* Top jagged */
-        top center, top center,
-        /* Bottom jagged */
-        bottom center, bottom center;
-    background-size:
-        /* Top + bottom jagged */
-        0.75rem 0.75rem, 0.75rem 0.75rem,
-        0.75rem 0.75rem, 0.75rem 0.75rem;
-    background-repeat: repeat-x;
   }
 }
 
