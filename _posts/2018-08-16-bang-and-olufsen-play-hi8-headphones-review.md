@@ -1,11 +1,11 @@
 ---
-layout: review
+layout: post
 author: Alan
 title: B&O PLAY H8i Headphones by Bang & Olufsen - Review
 date: 2019-08-16 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
-description-long: This is a sample review
+categories: [Headphones]
+img: /posts/bang-and-olufsen-play.jpg
 ---
 
 Whether you endure a long commute, or if you simply want to appreciate good music while doing your tasks, having a great pair of headphones could prove to be the answer to your silent prayers.
