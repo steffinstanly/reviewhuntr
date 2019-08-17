@@ -3,8 +3,7 @@ layout: post
 author: Alan
 title: B&O PLAY H8i Headphones by Bang & Olufsen - Review
 date: 2019-08-16 05:00:45+00
-tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [Headphones]
+tags: [Headphones]
 img: /posts/bang-and-olufsen-play.jpg
 ---
 

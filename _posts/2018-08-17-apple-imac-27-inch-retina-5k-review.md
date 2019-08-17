@@ -3,8 +3,7 @@ layout: post
 author: Victoria Blanco
 title: Apple iMac 27-inch Retina 5K
 date: 2019-08-17 05:00:45+00
-tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [Laptops]
+tags: [Computer Monitors]
 img: /posts/apple-imac-27-inch.jpg
 ---
 
