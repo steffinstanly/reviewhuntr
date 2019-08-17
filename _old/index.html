@@ -1,0 +1,22 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: reviews
+  sort_field: 'date'
+  sort_reverse: true
+---
+
+<div class="posts">
+    {% for post in paginator.posts %}
+  <article class="post">
+
+    {% include content-header.html type="post" %}
+    <div class="entry">
+        {{ post.excerpt }}
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">read more</a>
+  </article>
+  {% endfor %}
+  {% include pagination-footer.html %}
+</div>

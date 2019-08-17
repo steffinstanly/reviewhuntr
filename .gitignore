@@ -3,4 +3,5 @@
 _wip
 _site
 .bundle
+node_modules
 vendor/bundle
