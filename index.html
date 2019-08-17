@@ -1,5 +1,7 @@
 ---
 layout: main
+pagination:
+  enabled: true
 ---
 {% for post in paginator.posts %}
 <article class="post">

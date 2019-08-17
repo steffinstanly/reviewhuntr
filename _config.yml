@@ -1,7 +1,7 @@
 title: ReviewHuntr.com - The best reviews on the internet.
 description: > # this means to ignore newlines until "baseurl:"
   ReviewHuntr.com is creating the best reviews on the internet. 
-permalink: ':title/'
+permalink: '/reviews/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reviewhuntr.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
@@ -15,16 +15,54 @@ about-author: The best reviews on the internet.
 # discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-121890486-4
 
 # Build Settings
 markdown: kramdown
+
+autopages:
+  # Site-wide kill switch, disable here and it doesn't run at all 
+  enabled: true
+
+  # Category pages, omit entire config element to disable
+  categories: 
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts: 
+      - 'auto_category.html'
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: 'Posts in category :cat'
+    # Optional, the permalink for the  pagination page (:cat is replaced), 
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: '/category/:cat'
+
+  # Collection pages, omit to disable
+  collections:
+    layouts: 
+      - 'auto_collection.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+  
+  # Tag pages, omit to disable
+  tags:
+    layouts: 
+      - 'auto_tag.html'
+    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'
+
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: "/page/:num"
+  sort_field: 'date'
+  collection: 'posts'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2
 
 exclude: ["node_modules", "vendor", "gulpfile.js", "package.json", "yarn.lock"]
