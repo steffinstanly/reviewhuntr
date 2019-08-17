@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Blog",
+      "url": "{{ prepend: site.baseurl | prepend: site.url }}",
+      "headline": "{{ site.title }}",
+      "about": "{{ site.description }}",
+      "image": [
+          "{{ site.avatar }}"
+      ],
+      "isAccessibleForFree": "True",
+      "isPartOf": {
+          "@type": [],
+          "name": "",
+          "productID": ""
+      },
+      "discussionUrl": "",
+      "author": {
+          "@type": "Person",
+          "name": "{{ site.author }}",
+          "description": "{{ site.description }}",
+          "sameAs": "{{ site.url }}/about/",
+          "image": {
+              "@type": "ImageObject",
+              "url": "{{ site.author-img }}"
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "{{ site.author }}",
+          "publishingPrinciples": "{{ site.url }}/about/"
+      },
+      "editor": {
+          "@type": "Person",
+          "name": "{{ site.author }}",
+          "description": "{{ site.description }}",
+          "sameAs": "{{ site.url }}/about",
+          "image": {
+              "@type": "ImageObject",
+              "url": "{{ site.author-img }}"
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "{{ site.author }}",
+          "publishingPrinciples": "{{ site.url }}/about"
+      },
+      "inLanguage": "en-US",
+      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "additionalType": "CreativeWork",
+      "alternateName": "",
+      "publisher": {
+          "@type": "Organization",
+          "name": "{{ site.author }}",
+          "description": "{{ site.description }}",
+          "sameAs": "{{ site.url }}",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "{{ site.author-img }}"
+          },
+          "publishingPrinciples": "{{ site.url }}/about/"
+      }
+  }
+</script>

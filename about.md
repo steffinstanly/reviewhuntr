@@ -1,9 +1,6 @@
-<!-- ---
-layout: page
-title: About
-permalink: /about/
-jsonld: jsonld-id
-excerpt: ReviewHuntr is creating reviews of the things you love... and hate
---- -->
+---
+layout: main
+jsonld: json-id
+---
 
-ReviewHuntr is creating reviews of the things you love... and hate
+ReviewHuntr.com is creating the best reviews on the internet

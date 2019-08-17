@@ -16,6 +16,14 @@ commands:
           key: -v1-{{ checksum "Gemfile.lock" }}
           paths:
             - "vendor/bundle"
+      - restore_cache:
+          keys:
+            - v1-npm-deps-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save_cache:
+          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - "node_modules"
 
 jobs:
   test:
@@ -23,10 +31,10 @@ jobs:
     steps:
       - checkout
       - install-deps
-      - run: bundle exec jekyll build
+      - run: bundle exec gulp jekyll-build
       - run: |
-          FILES=$(find ./_site -type f -name '*.json') && echo "$FILES" && bundle exec jsonlint $FILES
-      - run: bundle exec htmlproofer ./_site --check-html --disable-external --check-opengraph --check-favicon
+          FILES=$(find ./_site -type f -name '*.json') && echo "$FILES" && jsonlint $FILES
+      - run: htmlproofer ./_site --check-html --disable-external --check-opengraph --check-favicon
 
   deploy:
     executor: default
@@ -48,7 +56,7 @@ jobs:
             git config --global user.email "playingwithpowershell@gmail.com"
             git config --global user.name "MrPowerScripts"
       - install-deps
-      - run: bundle exec jekyll build
+      - run: bundle exec gulp jekyll-build
       - run: |
           cd $DIRECTORY
           git add -A
