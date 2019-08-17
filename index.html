@@ -11,7 +11,7 @@ pagination:
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title | escape}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
     {% if post.author_url %}
     <a target="_blank" href="{{ post.author_url }}"><span class="post-author">{{post.author }}</span></a> -
     {% else %}
