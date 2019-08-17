@@ -942,13 +942,10 @@ table tfoot td {
 }
 
 .about .cover-author-image {
-  width: 100px;
-  height: 100px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
 }
 
 .about img {
@@ -1421,8 +1418,6 @@ a.newer-posts:hover {
     margin: 10px auto auto;
   }
   .about img {
-    width: 100px;
-    height: 100px;
     -webkit-border-radius: 100%;
             border-radius: 100%;
     margin-bottom: 10px;
