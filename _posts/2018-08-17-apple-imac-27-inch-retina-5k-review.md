@@ -5,6 +5,7 @@ title: Apple iMac 27-inch Retina 5K
 date: 2019-08-17 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
 categories: [Laptops]
+img: /posts/apple-imac-27-inch.jpg
 ---
 
 It's no secret that Apple products are always a safe option. In terms of functionality, Apple is known for their user-friendly products, easy to use but continuously evolving.
