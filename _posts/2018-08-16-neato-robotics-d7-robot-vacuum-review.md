@@ -5,8 +5,8 @@ author_url: https://twitter.com/siimonhansson
 title: Neato Robotics D7 Robot Vacuum - Review
 date: 2019-08-16 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
-description-long: I’m lazy. There, I said it. Although, I tend to prefer the term my mom uses instead: practical. I’m too practical to spend time on things I don’t enjoy or doesn’t make me money. This means that if I can, in any way, make my life a bit easier by automating these impractical parts of my life I’ll do it. One of those things is cleaning. And what better way to automate cleaning than by having a robot vacuum your floor? However, robot vacuums have built up quite a bad reputation over the years. Why? Because there are just so many and most of them are absolute garbage. So, to save you some time I’ve done some research and found what I believe is the best robot vacuum you can get right now. The Neato Robotics D7.
+categories: [Home]
+img: /posts/neato-robotics-d7-robot.jpg
 ---
 
 I’m lazy. There, I said it. Although, I tend to prefer the term my mom uses instead: practical. I’m too practical to spend time on things I don’t enjoy or doesn’t make me money. This means that if I can, in any way, make my life a bit easier by automating these *impractical* parts of my life I’ll do it. One of those things is cleaning. And what better way to automate cleaning than by having a robot vacuum your floor? However, robot vacuums have built up quite a bad reputation over the years. Why? Because there are just so many and most of them are absolute garbage. So, to save you some time I’ve done some research and found what I believe is the best robot vacuum you can get right now. The [***Neato Robotics D7***](https://www.amazon.com/Neato-Robotics-Connected-Featuring-Multiple/dp/B078MPFN55/ref=sr_1_fkmr0_2&tag=reviewhuntr-20). 
