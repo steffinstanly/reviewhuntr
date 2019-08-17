@@ -62,6 +62,7 @@ pagination:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate-v2
   - jemoji
 

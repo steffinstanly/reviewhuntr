@@ -16,7 +16,7 @@ permalink: /tags/
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
   {% for this_word in tag_words %}
-  <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+  <h2 id="{{ this_word | cgi_escape }}" name="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
 <!--  lists all posts corresponding to specific tag...-->
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="tag-list">
