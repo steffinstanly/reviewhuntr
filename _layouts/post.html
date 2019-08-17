@@ -17,6 +17,12 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title | escape}}</h1>
+        {% if page.author_url %}
+          <a target="_blank" href="{{ page.author_url }}"><span class="post-author">{{page.author | bold }}</span></a>
+        {% else %}
+          <span class="post-author">{{page.author | bold }}</span>
+        {% endif %}
+
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
@@ -31,6 +37,7 @@ layout: main
             <a href="{{ site.url }}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
           {% endfor %}
         </div>
+        {% include affiliate-info.html %}
       </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
