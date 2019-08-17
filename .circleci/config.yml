@@ -33,8 +33,8 @@ jobs:
       - install-deps
       - run: bundle exec gulp jekyll-build
       - run: |
-          FILES=$(find ./_site -type f -name '*.json') && echo "$FILES" && bundle exec jsonlint $FILES
-      - run: bundle exec htmlproofer ./_site --check-html --disable-external --check-opengraph --check-favicon
+          FILES=$(find ./_site -type f -name '*.json') && echo "$FILES" && jsonlint $FILES
+      - run: htmlproofer ./_site --check-html --disable-external --check-opengraph --check-favicon
 
   deploy:
     executor: default
