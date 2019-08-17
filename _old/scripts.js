@@ -7,7 +7,7 @@
   for (var i = 0; i < youtube.length; i++) {
     // thumbnail image source.
     // var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg"; 
-    var source = "{{ site.baseurl }}/images/logo/400dpiLogo.jpg"; 
+    var source = "{{ site.baseurl }}/images/logo/500pxLogo.jpg"; 
 
     // Load the image asynchronously
     var image = new Image();
