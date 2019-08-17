@@ -1,11 +1,10 @@
 ---
-layout: review
+layout: post
 author: Victoria Blanco
 title: Apple iMac 27-inch Retina 5K
 date: 2019-08-17 05:00:45+00
 tags: [ReviewHuntr, Product Reviews, Reviews, Review Website]
-categories: [review]
-description-long: It's no secret that Apple products are always a safe option. In terms of functionality, Apple is known for their user-friendly products, easy to use but continuously evolving. As technology continues to advance, Apple has remained consistent in what they offer: a clean modern look and feel for all their products, while also providing quality and durability. It's not a surprise, then, that Apple has become a symbol that stands out in between other leader brands. What started as a computer company, is now famous for its phones, music, TV, and even watch technology. They are a solid and reliable, and consumers know they can trust in them to provide fresh yet outstanding products.
+categories: [Laptops]
 ---
 
 It's no secret that Apple products are always a safe option. In terms of functionality, Apple is known for their user-friendly products, easy to use but continuously evolving.
