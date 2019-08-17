@@ -49,11 +49,6 @@ autopages:
     title: 'Posts tagged with :tag' # :tag is replaced by the tag name
     permalink: '/tag/:tag'
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jemoji
-
 pagination:
   enabled: true
   per_page: 8
@@ -64,5 +59,10 @@ pagination:
   trail: 
     before: 2
     after: 2
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jemoji
 
 exclude: ["node_modules", "vendor", "gulpfile.js", "package.json", "yarn.lock"]
