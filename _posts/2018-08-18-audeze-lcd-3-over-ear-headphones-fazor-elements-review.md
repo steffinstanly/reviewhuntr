@@ -4,7 +4,7 @@ author: Alan
 title: Audeze LCD-3 Over Ear Headphones Fazor Elements - Review
 date: 2019-08-18 05:00:45+00
 tags: [Headphones]
-img: 
+img: /posts/udeze-lcd-3-over.jpg
 ---
 
 Known as the eternal universal language, music speaks to every one of us.
