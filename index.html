@@ -255,7 +255,28 @@
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "headline": "ReviewHuntr.com - The best reviews on the internet.",
-      "description": "",
+      "description": "{% for post in paginator.posts %}
+
+  {% if post.img %}
+    
+  {% else %}
+  {% endif %}
+  
+    {{post.title | escape}}
+    {{ post.content | strip_html | truncatewords: 30 }}
+    {% if post.author_url %}
+    {{post.author }} -
+    {% else %}
+    {{post.author }} -
+    {% endif %}
+    {{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;
+    {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}
+  
+
+{% endfor %}
+
+{% include pagination.html %}
+",
       "image": [
           
               ""
@@ -291,7 +312,8 @@
       "publisher": {
           "@type": "Organization",
           "name": "ReviewHuntr",
-          "description": "",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet. 
+",
           "sameAs": "https://reviewhuntr.com",
           "logo": {
               "@type": "ImageObject",
