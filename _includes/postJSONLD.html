@@ -3,7 +3,7 @@
       "@context": "http://schema.org",
       "@type": "BlogPosting",
       "headline": "{{ page.title }}",
-      "description": "{{ page.description }}",
+      "description": "{{ page.content | strip_html | truncatewords: 100 }}",
       "image": [
           {% if page.ogimagenull %}
           {% elsif page.ogimage %}
@@ -44,7 +44,7 @@
       "publisher": {
           "@type": "Organization",
           "name": "{{ site.author }}",
-          "description": "{{ site.description-long }}",
+          "description": "{{ site.description }}",
           "sameAs": "{{ site.url }}",
           "logo": {
               "@type": "ImageObject",
