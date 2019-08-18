@@ -2,7 +2,6 @@
 layout: post
 author: Victoria Blanco
 title: Yamaha P45 - Digital Piano Review
-date: 2019-08-14 05:00:45+00
 tags: [Musical Instruments]
 img: /posts/yamaha-p45-88-key.jpg
 ---

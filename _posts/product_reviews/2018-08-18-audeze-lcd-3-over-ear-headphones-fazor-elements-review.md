@@ -2,7 +2,6 @@
 layout: post
 author: Alan
 title: Audeze LCD-3 Over Ear Headphones Fazor Elements - Review
-date: 2019-08-18 05:00:45+00
 tags: [Headphones]
 img: /posts/udeze-lcd-3-over.jpg
 ---

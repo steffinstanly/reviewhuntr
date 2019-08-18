@@ -3,7 +3,6 @@ layout: post
 author: Simon
 author_url: https://twitter.com/siimonhansson
 title: Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit - Review
-date: 2019-08-15 05:00:45+00
 tags: [Tools]
 img: /posts/ruputas-wowstick-1f-electric.jpg
 ---

@@ -3,7 +3,6 @@ layout: post
 author: Simon
 author_url: https://twitter.com/siimonhansson
 title: Neato Robotics D7 Robot Vacuum - Review
-date: 2019-08-16 05:00:45+00
 tags: [Home]
 img: /posts/neato-robotics-d7-robot.jpg
 ---

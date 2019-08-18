@@ -2,7 +2,6 @@
 layout: post
 author: Alan
 title: Audeze Mobius Premium 3D Gaming Headset with Surround Sound - Review
-date: 2019-08-15 05:00:45+00
 tags: [Headphones]
 img: /posts/audeze-mobius-premium-3d.jpg
 ---
