@@ -2,8 +2,8 @@
 layout: post
 author: Alan
 title: Audeze LCD-4 Over Ear Headphones - Review
-tags: [Musical Instruments]
-img: 
+tags: [Headphones]
+img: /posts/audeze-lcd-4-over.jpg
 ---
 
 The sound of music is one of the very few things in the world that could draw the favorable attention of anyone regardless of their age, gender, or social setting. Whether you are an entrepreneur or an entry-level professional, an ambitious student, or a hardworking artist, listening to some great music is never out of the question.
