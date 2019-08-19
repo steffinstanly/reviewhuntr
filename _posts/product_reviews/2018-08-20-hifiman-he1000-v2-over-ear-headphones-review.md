@@ -3,7 +3,7 @@ layout: post
 author: Alan
 title: HIFIMAN HE1000 V2 Over Ear Headphones - Review
 tags: [Headphones]
-img: 
+img: /posts/hifiman-he1000-v2-over.jpg
 ---
 
 Real music enthusiasts want quality. It is not just a want. They desire phenomenal quality. As I have noticed in my own experiences, this holds true regardless of the type of person. The audiophile may be a working professional or a student who happens to love music.
