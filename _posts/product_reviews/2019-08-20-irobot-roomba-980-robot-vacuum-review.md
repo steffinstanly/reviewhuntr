@@ -3,7 +3,7 @@ layout: post
 author: Alan
 title: iRobot Roomba 980 Robot Vacuum - Review
 tags: [Headphones]
-img: 
+img: /posts/irobot-roomba-980-robot.jpg
 ---
 
 Roomba is probably the first name that pops into peoples head when they think of robot vacuums. The [***iRobot Roomba 980 Robot Vacuum***](https://www.amazon.com/iRobot-Vacuum-Connected-Mapping-Carpets/dp/B013E9L4ZS/ref=sr_1_1?qid=1566150606&tag-reviewhuntr-20) is similar to the traditional Roomba, circular in shape with black edges and a sleek look that makes one feel like they're living in the future. The specifications of the Roomba 980 include HEPA filtration, a diameter of 13.9 inches and 3.6 inches in height. It's weight stands in at 8.7 pounds, and it has a built-in handle for carrying it around. On the front, there are three buttons: Home button present on the left, a large Clean button in the middle, and a "Spot Clean" button on the right side. This particular feature is for when you want to preserve the charge and make sure the Roomba cleans only when there's something to be cleaned, like litter spills. You can set up an automatic time for it to start cleaning, however, the Roomba comes with an app on both iOS and Android so that you can take care of the Roomba's schedule manually.
