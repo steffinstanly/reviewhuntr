@@ -2,7 +2,7 @@
 layout: post
 author: Alan
 title: iRobot Roomba 980 Robot Vacuum - Review
-tags: [Headphones]
+tags: [Home Cleaning Appliance]
 img: /posts/irobot-roomba-980-robot.jpg
 ---
 
