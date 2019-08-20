@@ -57,6 +57,7 @@ jobs:
             git config --global user.name "MrPowerScripts"
       - install-deps
       - run: bundle exec gulp jekyll-build
+      - run: find ./_site/assets/img -type d -exec sh -c 'ls "$0"/*.jpg 2>/dev/null && jpegoptim --strip-all -t "$0"/*.jpg' {} \;
       - run: |
           cd $DIRECTORY
           git add -A
