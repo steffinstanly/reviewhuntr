@@ -26,6 +26,9 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
+      <hr>
+      {% assign search_values = page.tags | join: " " %}
+      {% include affiliate-info.html search_phrase=search_values %}
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
@@ -37,7 +40,6 @@ layout: main
             <a href="{{ site.url }}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
           {% endfor %}
         </div>
-        {% include affiliate-info.html %}
       </div>
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
