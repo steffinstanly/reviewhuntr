@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
+var jp2 = require('gulp-jpeg-2000');
 var cache = require('gulp-cache');
 var cp = require('child_process');
 var browserSync = require('browser-sync');
@@ -45,13 +46,14 @@ gulp.task('sass', function () {
 
 // Compression images
 gulp.task('img', function() {
-	return gulp.src('assets/img/**/*')
+  return gulp.src('assets/img/**/*.jpg')
 		.pipe(cache(imagemin({
 			interlaced: true,
 			progressive: true,
 			svgoPlugins: [{removeViewBox: false}],
 			use: [pngquant()]
-		})))
+    })))
+    .pipe(jp2())
     .pipe(gulp.dest('_site/assets/img'))
     .pipe(browserSync.reload({stream:true}));
 });
