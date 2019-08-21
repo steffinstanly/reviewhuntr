@@ -255,62 +255,55 @@
     <script type="application/ld+json">
   {
       "@context": "http://schema.org",
-      "@type": "BlogPosting",
+      "@type": "Blog",
+      "url": "https://reviewhuntr.com",
       "headline": "ReviewHuntr.com - The best reviews on the internet.",
-      "description": "{% for post in paginator.posts %}
-
-  {% if post.img %}
-    
-  {% else %}
-  {% endif %}
-  
-    {{post.title | escape}}
-    {{ post.content | strip_html | truncatewords: 30 }}
-    {% if post.author_url %}
-    {{post.author }} -
-    {% else %}
-    {{post.author }} -
-    {% endif %}
-    {{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;
-    {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}
-  
-
-{% endfor %}
-
-{% include pagination.html %}
+      "about": "ReviewHuntr.com is creating the best reviews on the internet. 
 ",
       "image": [
-          
-              ""
-          
+          ""
       ],
-      "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://reviewhuntr.com/"
-      },
-      "datePublished": "",
-      "dateModified": "",
       "isAccessibleForFree": "True",
       "isPartOf": {
-          "@type": ["CreativeWork", "Product", "Blog"],
-          "name": "ReviewHuntr",
+          "@type": [],
+          "name": "",
           "productID": ""
       },
-      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "discussionUrl": "",
       "author": {
           "@type": "Person",
-          "name": "",
-          "description": "",
-          "sameAs": "https://reviewhuntr.com/about",
+          "name": "ReviewHuntr",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet. 
+",
+          "sameAs": "https://reviewhuntr.com/about/",
           "image": {
               "@type": "ImageObject",
-              "url": ""
+              "url": "logo/500pxLogo.jpg"
           },
           "givenName": "",
           "familyName": "",
-          "alternateName": "",
+          "alternateName": "ReviewHuntr",
           "publishingPrinciples": "https://reviewhuntr.com/about/"
       },
+      "editor": {
+          "@type": "Person",
+          "name": "ReviewHuntr",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet. 
+",
+          "sameAs": "https://reviewhuntr.com/about",
+          "image": {
+              "@type": "ImageObject",
+              "url": "logo/500pxLogo.jpg"
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "ReviewHuntr",
+          "publishingPrinciples": "https://reviewhuntr.com/about"
+      },
+      "inLanguage": "en-US",
+      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "additionalType": "CreativeWork",
+      "alternateName": "",
       "publisher": {
           "@type": "Organization",
           "name": "ReviewHuntr",
@@ -326,6 +319,6 @@
   }
 </script>
   
-    
+
 </body>
 </html>
