@@ -3,7 +3,7 @@
     {% include {{page.jsonld}}.html %}
   {% elsif page.layout == "post" %}
     {% include postJSONLD.html %}
-  {% elsif page.layout == "main" %}
+  {% else %}
     {% include mainJSONLD.html %}
   {% endif %}
 {% endif %}
