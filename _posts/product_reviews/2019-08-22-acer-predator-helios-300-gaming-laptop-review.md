@@ -14,16 +14,16 @@ Multiple professionals, students and day-to-day users have discovered how comfor
 
 If you are one of the many users who enjoy the advantages that a laptop can provide, this is an article for you, especially if you want to know various details related to a computer somewhat "powerful"; that you could use to spend long days playing demanding video games without sacrificing any performance.
 
-If you are a beginner and don't know how specific components work, or how they can be superior to others, don't worry, as I'll, in detail, explain the elements that make the [***Acer Predator Helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag-reviewhuntr-20) an excellent
+If you are a beginner and don't know how specific components work, or how they can be superior to others, don't worry, as I'll, in detail, explain the elements that make the [***Acer Predator Helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag=reviewhuntr-20) an excellent
 choice for you.
 
-The [***Acer Predator Helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag-reviewhuntr-20) features a 15.6" FHD IPS screen with a refresh rate of 144Hz, an Intel i7-8750H processor, a GTX 1060 6GB GPU, 16GB DDR4 RAM, 256GB NVMe SSD, and Aeroblade Metal Fans PH315-51-78NP.
+The [***Acer Predator Helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag=reviewhuntr-20) features a 15.6" FHD IPS screen with a refresh rate of 144Hz, an Intel i7-8750H processor, a GTX 1060 6GB GPU, 16GB DDR4 RAM, 256GB NVMe SSD, and Aeroblade Metal Fans PH315-51-78NP.
 
 All the above makes this model an excellent choice. According to different reviews, it can be considered a high-performance laptop with outstanding performance concerning its price range. Despite having unique components, its price is around $1200, which makes it relatively accessible.
 
 ### Pros
 
-The powerful components in the [***Acer Preditor helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag-reviewhuntr-20) is probably the laptops biggest draw. Let's go through them.
+The powerful components in the [***Acer Preditor helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag=reviewhuntr-20) is probably the laptops biggest draw. Let's go through them.
 
 When it comes to the screen, this model has a 15.6" FHD IPS screen that provides wide viewing angles and excellent color accuracy. The 144hz refresh rate ensures an incredibly smooth gameplay experience — although, to take full advantage of this functionality you'll need to play at a high enough FPS which means that the performance could vary according to the game and the configurations applied to it.
 
@@ -45,4 +45,4 @@ Until now, multiple solutions have been proposed by different users, the most co
 
 ### Conclusion
 
-Despite all the above and the significant problem of overheating, the [***Acer Preditor helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag-reviewhuntr-20) is a great laptop, and most users in their reviews have agreed that it has an excellent quality-price relationship that makes it an outstanding choice for those who want to get an incredible gaming laptop for a friendly sum of money concerning the quality of its components, because its small problems can be solved with a little extra investment that will not require a budget higher than $1300, while most of the laptop gaming in the market easily exceed that price.
+Despite all the above and the significant problem of overheating, the [***Acer Preditor helios 300 Gaming Laptop***](https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C/ref=sr_1_7?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A23T4V16A9N7&tag=reviewhuntr-20) is a great laptop, and most users in their reviews have agreed that it has an excellent quality-price relationship that makes it an outstanding choice for those who want to get an incredible gaming laptop for a friendly sum of money concerning the quality of its components, because its small problems can be solved with a little extra investment that will not require a budget higher than $1300, while most of the laptop gaming in the market easily exceed that price.
