@@ -1202,6 +1202,14 @@ a.newer-posts:hover {
   padding: 20px;
 }
 
+.wrap-content p {
+  font-size: 18px;
+}
+
+.wrap-content p:first-of-type {
+  font-size: 22px;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;
