@@ -3,7 +3,7 @@ layout: post
 author: Martín Juárez
 title: Acer Predator Helios 300 Gaming Laptop – Review
 tags: [Laptops]
-img: 
+img: /posts/acter-predator-helios-300.jpg
 ---
 
 Computers have gradually become an essential part of our lives. Since their origins, they have allowed us to carry out significant processes capable of simplifying multiple tasks, and over time, these have even become a source of entertainment.
