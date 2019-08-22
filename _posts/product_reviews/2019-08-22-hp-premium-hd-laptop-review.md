@@ -3,7 +3,7 @@ layout: post
 author: Alan
 title: 2019 HP Premium HD Laptop - Review
 tags: [Laptops]
-img: 
+img: /posts/hp-premium-hd-laptop.jpg
 ---
 
 We've all heard of HP, it's one of the most popular brands of office tech - especially in the computer world - that can deliver what you need when you need it. I own a Windows 10 HP PC myself - in fact, its the very one I'm using to write this review. But enough about the company brand itself, let's talk about a certain product of theirs and dive into its features, quality, and general reception amongst buyers. Today, we're reviewing the [***2019 HP Premium HD Laptop.***](https://www.amazon.com/HP-15-6-inch-Dual-Core-MaxxAudio-Bluetooth/dp/B07QKWTZ4B/ref=sr_1_5&tag=reviewhuntr-20) Sold online at the very popular Amazon retail shopping website.
