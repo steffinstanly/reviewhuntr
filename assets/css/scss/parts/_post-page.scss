@@ -1,5 +1,14 @@
 .wrap-content {
   padding: 20px;
+
+  p {
+    font-size: 18px;
+
+    &:first-of-type {
+      font-size: 22px;
+    }
+  }
+
 }
 
 .header-page {
