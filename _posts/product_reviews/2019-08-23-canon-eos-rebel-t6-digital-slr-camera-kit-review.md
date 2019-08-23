@@ -3,7 +3,7 @@ layout: post
 author: Lisa
 title: Canon EOS Rebel T6 Digital SLR Camera Kit with EF-S 18-55mm f/3.5-5.6 IS II Lens (Black) - Review
 tags: [Cameras]
-img: 
+img: /posts/canon-eos-rebel-t6.jpg
 ---
 
 Have you ever considered indulging in photography? Once a person has mastered the basics, it is something that pays off in the long run. You can capture memories beautifully and re-visit them over again. However, you may have found yourself overwhelmed with all the choices out there. These days, there are so many options for the average everyday user and it gets harder to decide what to pick. Once you decide to check out the options, you might find your enthusiasm waning due to confusion about what to buy. I thought I'd make it easier for you by reviewing one of the most beginner-friendly cameras out there, the [***Canon EOS Rebel T6***](https://www.amazon.com/dp/B01CO2JPYS/ref=dp_cr_wdg_tit_nw_mr&tag=reviewhuntr-20).
