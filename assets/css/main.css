@@ -937,12 +937,35 @@ table tfoot td {
   background-color: #ffffff;
 }
 
-.about {
+.nav {
+  margin: 0;
+  padding: 10px;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ecf0f1;
+  background-color: #3d9ec7;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.nav a:hover {
+  background-color: #3590b6;
+}
+
+.about, nav {
   margin: 0 0 40px;
   text-align: center;
 }
 
-.about .cover-author-image {
+.about .cover-author-image, nav .cover-author-image {
   max-width: 200px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
@@ -950,7 +973,7 @@ table tfoot td {
   overflow: hidden;
 }
 
-.about img {
+.about img, nav img {
   width: 100%;
   height: 100%;
   -webkit-border-radius: 50%;
@@ -962,12 +985,12 @@ table tfoot td {
   transition: transform 0.35s, -webkit-transform 0.35s;
 }
 
-.about img:hover {
+.about img:hover, nav img:hover {
   -webkit-transform: scale3d(0.9, 0.9, 1);
           transform: scale3d(0.9, 0.9, 1);
 }
 
-.about .author-name {
+.about .author-name, nav .author-name {
   font-family: 'PT Serif', serif;
   margin: 0 0 10px;
   position: relative;
@@ -978,7 +1001,7 @@ table tfoot td {
   font-weight: 700;
 }
 
-.about .author-name::after {
+.about .author-name::after, nav .author-name::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -994,7 +1017,7 @@ table tfoot td {
   background-color: #515151;
 }
 
-.about p {
+.about p, nav p {
   font-size: 16px;
   margin: 0 0 10px;
 }
