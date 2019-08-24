@@ -11,7 +11,27 @@
   padding: 20px 10px;
   background-color: $white;
 }
-.about {
+
+.nav {
+  margin: 0;
+  padding: 10px;
+  a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid $gray;
+    background-color: $shark-blue;
+    transition: all .3s;
+    &:hover {
+      background-color: darken($shark-blue, 5%);
+    }
+  }
+}
+
+.about, nav {
   margin: 0 0 40px;
   text-align: center;
   .cover-author-image {
