@@ -7,11 +7,11 @@
       "image": [
           {% if page.ogimagenull %}
           {% elsif page.ogimage %}
-              "{{page.ogimage}}"
+              "{{ site.url }}/assets/img/posts/{{page.ogimage}}"
           {% elsif page.img %}
-              "{{page.img}}"
+              "{{ site.url }}/assets/img/posts/{{page.img}}"
           {% else %}
-              "{{ page.author-img }}"
+              "{{ site.url }}/assets/img/{{ page.author-img }}"
           {% endif %}
       ],
       "mainEntityOfPage": {
@@ -34,7 +34,7 @@
           "sameAs": "{{ site.url }}/about",
           "image": {
               "@type": "ImageObject",
-              "url": "{{ page.author-img }}"
+              "url": "{{ site.url }}/assets/img/{{ page.author-img }}"
           },
           "givenName": "",
           "familyName": "",
