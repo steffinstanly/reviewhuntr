@@ -32,6 +32,9 @@ jobs:
       - checkout
       - install-deps
       - run: bundle exec gulp jekyll-build
+      - store_artifacts:
+          path: _site
+          destination: site-source
       - run: |
           FILES=$(find ./_site -type f -name '*.json') && echo "$FILES" && jsonlint $FILES
       - run: htmlproofer ./_site --check-html --disable-external --check-opengraph --check-favicon
