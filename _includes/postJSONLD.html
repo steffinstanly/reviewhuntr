@@ -34,7 +34,7 @@
           "sameAs": "{{ site.url }}/about",
           "image": {
               "@type": "ImageObject",
-              "url": "{{ site.url }}/assets/img/{{ page.author-img }}"
+              "url": {% if page.author-img %}"{{ site.url }}/assets/img/{{ page.author-img }} {% endif %}"
           },
           "givenName": "",
           "familyName": "",
