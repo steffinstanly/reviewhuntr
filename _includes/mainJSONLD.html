@@ -6,7 +6,7 @@
       "headline": "{{ site.title }}",
       "about": "{{ site.description | strip_html | truncatewords: 100 }}",
       "image": [
-          "{{ site.author-img }}"
+          "{{ site.url }}/assets/img/{{ site.author-img }}"
       ],
       "isAccessibleForFree": "True",
       "isPartOf": {
@@ -22,7 +22,7 @@
           "sameAs": "{{ site.url }}/about/",
           "image": {
               "@type": "ImageObject",
-              "url": "{{ site.author-img }}"
+              "url": "{{ site.url }}/assets/img/{{ site.author-img }}"
           },
           "givenName": "",
           "familyName": "",
@@ -36,7 +36,7 @@
           "sameAs": "{{ site.url }}/about",
           "image": {
               "@type": "ImageObject",
-              "url": "{{ site.author-img }}"
+              "url": "{{ site.url }}/assets/img/{{ site.author-img }}"
           },
           "givenName": "",
           "familyName": "",
@@ -54,7 +54,7 @@
           "sameAs": "{{ site.url }}",
           "logo": {
               "@type": "ImageObject",
-              "url": "{{ site.author-img }}"
+              "url": "{{ site.url }}/assets/img/{{ site.author-img }}"
           },
           "publishingPrinciples": "{{ site.url }}/about/"
       }
