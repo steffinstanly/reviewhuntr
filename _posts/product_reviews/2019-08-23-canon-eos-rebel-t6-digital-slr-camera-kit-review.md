@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Lisa
+author: 11
 title: Canon EOS Rebel T6 Digital SLR Camera Kit with EF-S 18-55mm f/3.5-5.6 IS II Lens (Black) - Review
 tags: [Cameras]
 img: /posts/canon-eos-rebel-t6.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Henry
+author: 10
 title: 2019 HP Premium HD Laptop - Review
 tags: [Laptops]
 img: /posts/hp-premium-hd-laptop.jpg

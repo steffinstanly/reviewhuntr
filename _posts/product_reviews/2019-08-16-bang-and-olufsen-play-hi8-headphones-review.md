@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Alan
+author: 6
 title: B&O PLAY H8i Headphones by Bang & Olufsen - Review
 tags: [Headphones]
 img: /posts/bang-and-olufsen-play.jpg

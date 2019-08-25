@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Victoria Blanco
+author: 5
 title: Apple iMac 27-inch Retina 5K - Review
 tags: [Computer Monitors]
 img: /posts/apple-imac-27-inch.jpg

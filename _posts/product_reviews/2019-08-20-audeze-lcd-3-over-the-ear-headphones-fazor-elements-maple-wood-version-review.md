@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Alan
+author: 6
 title: Audeze LCD-3 Over Ear Headphones Fazor Elements MAPLE WOOD VERSION - Review
 tags: [Headphones]
 img: /posts/audeze-lcd-3-wood.jpg

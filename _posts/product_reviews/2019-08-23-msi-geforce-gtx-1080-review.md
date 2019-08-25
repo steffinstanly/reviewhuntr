@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Hamza Tariq
+author: 7
 title: MSI GeForce GTX 1080 - Review
 tags: [Computer Components, Graphics Cards]
 img: /posts/msi-geforce-gtc-1080.jpg

@@ -17,10 +17,12 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title | escape}}</h1>
-        {% if page.author_url %}
-          <a target="_blank" href="{{ page.author_url }}"><span class="post-author">{{page.author }}</span></a>
+        {% if site.data.people[page.author].author-url %}
+          <a target="_blank" href="{% include person.html key='id' value=page.author return='author-url' %}"><span class="post-author">{% include person.html key='id' value=page.author return='name' %}</span></a>
         {% else %}
-          <span class="post-author">{{page.author }}</span>
+          <span class="post-author">
+            {% include person.html key='id' value=page.author return='name' %}
+          </span>
         {% endif %}
 
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>

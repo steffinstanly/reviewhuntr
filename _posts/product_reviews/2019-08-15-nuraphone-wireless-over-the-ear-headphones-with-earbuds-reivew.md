@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Alan
+author: 6
 title: Nuraphone - Wireless Bluetooth Over Ear Headphones With Earbuds - Review
 tags: [Headphones]
 img: /posts/nuraphone-wireless-over-the.jpg

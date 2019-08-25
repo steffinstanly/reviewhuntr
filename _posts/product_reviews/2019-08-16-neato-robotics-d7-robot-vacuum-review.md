@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Simon
+author: 4
 author_url: https://twitter.com/siimonhansson
 title: Neato Robotics D7 Robot Vacuum - Review
 tags: [Home Cleaning Appliance]

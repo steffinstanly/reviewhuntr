@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Julio Alfonzo
+author: 9
 author_url: http://instagram.com/jdalfonzo
 title: Destroy the Amazon rainforest for charity with Amazonian wood clothing - Review
 tags: [sharkbait]

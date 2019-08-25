@@ -1,0 +1,5 @@
+{% for person in site.data.people %}
+  {% if person[include.key] == include.value %}
+    {{ person[include.return] | default: ReviewHuntr }}
+  {% endif %}
+{% endfor %}

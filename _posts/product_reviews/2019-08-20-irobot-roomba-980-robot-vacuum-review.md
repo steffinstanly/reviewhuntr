@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Lisa
+author: 11
 title: iRobot Roomba 980 Robot Vacuum - Review
 tags: [Home Cleaning Appliance]
 img: /posts/irobot-roomba-980-robot.jpg

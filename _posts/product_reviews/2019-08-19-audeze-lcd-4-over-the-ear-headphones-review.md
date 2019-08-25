@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Alan
+author: 6
 title: Audeze LCD-4 Over Ear Headphones - Review
 tags: [Headphones]
 img: /posts/audeze-lcd-4-over.jpg

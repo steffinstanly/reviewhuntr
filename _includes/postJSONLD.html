@@ -29,7 +29,7 @@
       "license": "http://creativecommons.org/licenses/by-sa/4.0/",
       "author": {
           "@type": "Person",
-          "name": "{{ page.author }}",
+          "name": "{% include person.html key='id' value=page.author return='name' %}",
           "description": "{{ page.description }}",
           "sameAs": "{{ site.url }}/about",
           "image": {
@@ -38,7 +38,7 @@
           },
           "givenName": "",
           "familyName": "",
-          "alternateName": "{{ page.author }}",
+          "alternateName": "{% include person.html key='id' value=page.author return='name' %}",
           "publishingPrinciples": "{{ site.url }}/about/"
       },
       "publisher": {

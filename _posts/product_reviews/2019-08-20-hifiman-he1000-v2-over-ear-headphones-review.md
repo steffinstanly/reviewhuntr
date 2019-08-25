@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Alan
+author: 6
 title: HIFIMAN HE1000 V2 Over Ear Headphones - Review
 tags: [Headphones]
 img: /posts/hifiman-he1000-v2-over.jpg

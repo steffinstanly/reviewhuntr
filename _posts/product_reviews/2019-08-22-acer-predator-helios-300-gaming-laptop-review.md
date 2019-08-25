@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Martín Juárez
+author: 8
 title: Acer Predator Helios 300 Gaming Laptop – Review
 tags: [Laptops]
 img: /posts/acter-predator-helios-300.jpg
