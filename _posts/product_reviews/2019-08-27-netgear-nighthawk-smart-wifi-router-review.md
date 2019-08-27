@@ -3,7 +3,7 @@ layout: post
 author: 10
 title: NETGEAR Nighthawk Smart WIFI Router - Review
 tags: [Routers]
-img:
+img: /posts/netgear-nighthawk-smart-wifi.jpg
 ---
 
 Do you like surfing the internet? - Of course, you do. So now you might be thinking, why ask such a redundant question? Well, do you like surfing the internet with slow or fast speeds? -  Okay, that answer should still be obvious, but to be truthful, it's selective. Anybody can buy a new router and do a quick google search, then claim that said router is Sonic The Hedgehog when it comes to internet speed. But often enough, this is a ruse to give you a lower quality router, or sometimes even a used one. (Looking at you, Spectrum.)
