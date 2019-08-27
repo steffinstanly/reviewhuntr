@@ -3,7 +3,7 @@ layout: post
 author: 11
 title: NordicTrack T Series 6.5S and 6.5Si Treadmil - Review
 tags: [Gym Equipment, Workout Equipment]
-img:
+img: /posts/nordictrack-tseries-65s-65si.jpg
 ---
 
 Running on a treadmill has remained the most popular choice for people looking for a quick cardio workout, whether at home or gym. It is a no-brainer to use, and requires no in-depth understanding apart from, well, running. When we talk about treadmills for home use, there is a wide variety out there ranging from awful to fantastic. That's a broad spectrum. For someone who is looking around to buy one, this can get tedious very fast. This review is going to cover not one, but 2 treadmills of one of the most reliable brands out there, *NordicTrack*. The 6.5S and 6.5Si are the current popular offerings and this review touches both briefly to help out a potential cardio bunny.
