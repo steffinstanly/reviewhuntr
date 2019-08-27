@@ -3,7 +3,7 @@ layout: post
 author: 11
 title:  Doona Infant Car Seat & Latch Base - Review
 tags: [Parenting, Baby]
-img:
+img: /posts/doona-infant-car-seat.jpg
 ---
 
 Taking care of a newborn can be hard and even more so with families that travel regularly. For most parents, they have to lug around bulky car seats and a separate stroller anytime they have to be on the go. This can get tiring pretty quick. It's basically an upper body cardio workout! The [***Doona Infant Car Seat & Latch Base***](https://www.amazon.com/Doona-Infant-Seat-Latch-Base/dp/B07HML1BT5/ref=sr_1_6?qid=1566904150&refinements=p_36%3A30000-&rnid=386430011&s=baby-products&sr=1-6&th=1&tag=reviewhuntr-20) is a nifty game-changer released by the company *Simple Parenting*. This car seat is the first that can also transform into a stroller! Is that a dream come true or what? Well, maybe not quite, but it does seem to be the time and energy saving solution for parents. Customers report ease of usage with the [***Doona car seat***](https://www.amazon.com/Doona-Infant-Seat-Latch-Base/dp/B07HML1BT5/ref=sr_1_6?qid=1566904150&refinements=p_36%3A30000-&rnid=386430011&s=baby-products&sr=1-6&th=1&tag=reviewhuntr-20), with mothers who frequent public transport heaving a sigh of relief over the foldability and portability of this car seat-stroller. 
