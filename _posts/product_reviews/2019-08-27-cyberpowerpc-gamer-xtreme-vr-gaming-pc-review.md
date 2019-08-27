@@ -3,7 +3,7 @@ layout: post
 author: 7
 title: CyberpowerPC Gamer Xtreme VR Gaming PC - Review
 tags: [Computers]
-img: 
+img: /posts/cyberpowerpc-gamer-xtreme-vr.jpg
 ---
 
 The allure of PC gaming is stronger than ever in these subscription service ridden days. With free multiplayer, cheaper games, and better graphics there's no surprise thousands of people are looking to make the switch to PC. However, building your own PC is not for everyone, as it requires some degree of research and preparation. Not everyone can spare their valuable time for researching and selecting components to eventually build a PC. This is why pre-built systems like the [***CyberpowerPC Gamer Xtreme VR Gaming PC***](https://www.amazon.com/CyberpowerPC-Xtreme-i5-9400F-GeForce-GXiVR8060A7/dp/B07PKXQBHN/ref=sr_1_3&tag=reviewhuntr-20) exist, they offer anyone a chance to get into PC gaming without the other hassles of building and testing your own computer.
