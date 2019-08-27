@@ -3,7 +3,7 @@ layout: post
 author: 11
 title: SimpliSafe 12- Piece Home Security System with HD Camera and Smoke Detector - Review
 tags: [Smart Home, Home Security]
-img:
+img: /posts/simplisafe-12-piece-home.jpg
 ---
 
 Home security is an attractive idea for a lot of people, myself included. The ability to easily keep your family and home secure is something most people would like. Thanks to the current technological advancements, we can do exactly that with smart home security systems. What makes them "smart" is that they utilize internet availability in conjunction with existing smart systems in the house. This gives a complete layer of protection over your house, family, and posessions. These days, there is a wide variety of home security systems to choose from. However, testing them out, reviewing them, getting acquainted with different systems is something that is not feasible for many people. Some also do not find the idea of being bound to a contract particularly appealing. That does not mean you need to settle for anything less. It just means you need to be smart and thorough in your research, and I'm going to make that easy for you by reviewing one of the most popular home security systems.
