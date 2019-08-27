@@ -3,7 +3,7 @@ layout: post
 author: 11
 title: Oculus Rift S PC-Powered VR Gaming Headset - Review
 tags: [Virtual Reality]
-img:
+img: /posts/oculus-rift-s-pc.jpg
 ---
 
 Oculus is one of the top names in the category of  Virtual Reality. And it has changed how we experience entertainment in this new age. The [***Oculus Rift S***](https://www.amazon.com/Oculus-Rift-PC-Powered-Gaming-Headset-pc/dp/B07PTMKYS7/ref=cm_cr_arp_d_product_top&tag=reviewhuntr-20) headset is what I'm going to be reviewing today. The [***Oculus Rift S***](https://www.amazon.com/Oculus-Rift-PC-Powered-Gaming-Headset-pc/dp/B07PTMKYS7/ref=cm_cr_arp_d_product_top&tag=reviewhuntr-20) has been described more as a remastered version of the Rift, rather than a successor. It's previous original version has been discontinued permanently.  The look of the [***Oculus Rift S***](https://www.amazon.com/Oculus-Rift-PC-Powered-Gaming-Headset-pc/dp/B07PTMKYS7/ref=cm_cr_arp_d_product_top&tag=reviewhuntr-20) has evolved into something more sleek and not like the traditional Oculus look. This is because Oculus was not the designer of the Rift S, that job was given to Lenovo. 
