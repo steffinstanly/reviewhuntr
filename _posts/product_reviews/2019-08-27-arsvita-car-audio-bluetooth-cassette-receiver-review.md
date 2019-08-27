@@ -3,7 +3,7 @@ layout: post
 author: 12
 title: Arsvita Car Audio Bluetooth Cassette Receiver - Review
 tags: [Bluetooth Adapters, Car Accessories]
-img: 
+img: /posts/arsvita-car-audio-bluetooth.jpg
 ---
 
 Are you a music lover? Do you not like local radio stations, or get tired of not having music on demand? More importantly, does your car only have a tape player? Since most bands stopped putting out tapes sometime in the early 2000s, having the ability to play them in your car isn't seen as such a big positive anymore. And, if you can't afford to replace the entire stereo, it can seem like you're stuck with the oldies and that random tape of the Oakridge Boys that somehow made its way into that one tucked-away box of junk that never gets thrown out. CDs, too, are going the way of the dinosaur, so those old adapters don't work as well anymore. But the [***Arsvita Car Audio Bluetooth Cassette Receiver***](https://www.amazon.com/Arsvita-Bluetooth-Cassette-Receiver-Adapter/dp/B07QSW6KNY?tag=reviewhuntr-20) seems to be a good choice in overcoming this hurdle, and getting your favorite tunes playing again!
