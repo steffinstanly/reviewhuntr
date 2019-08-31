@@ -15,9 +15,11 @@ about-author: The best reviews on the internet.
 
 # Tracker
 analytics: UA-121890486-4
+amazon-aid: reviewhuntr-20
 
 # Build Settings
 markdown: kramdown
+strict_front_matter: true
 
 autopages:
   # Site-wide kill switch, disable here and it doesn't run at all 
