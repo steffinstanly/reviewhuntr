@@ -1,0 +1,43 @@
+{%- assign product = site.data.products | where:"id",include.id | first -%}
+
+<!-- product url -->
+{%- if product.url -%}
+  {%- capture product-url -%}
+    {{ product.url }}?tag={{ site.amazon-aid }}
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- product full name -->
+{%- if product.name -%}
+  {%- capture product-title -%}
+    {{ product.name }} - Review
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- link with full name -->
+{%- if product.name -%}
+  {%- capture link -%}
+  <span><a 
+      class="product-link"
+      href="{{ product-url }}" 
+      target="_blank">{{ product.name }}</a></span>
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- link with short name -->
+{%- if product.short-name -%}
+  {%- capture sn-link -%}
+  <span><a 
+      class="product-link" 
+      href="{{ product-url }}" 
+      target="_blank">{{ product.short-name }}</a></span>
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- grabs the first image from the imgs to use as a header -->
+{%- if product.imgs -%}
+  {%- capture header-img -%}
+    {{ product.imgs | first | strip }}
+  {%- endcapture -%}
+{%- endif -%}
+

@@ -1,23 +1,21 @@
 ---
 layout: post
 author: 4
-author_url: https://twitter.com/siimonhansson
-title: Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit - Review
+product: 4
 tags: [Tools]
-img: /posts/ruputas-wowstick-1f-electric.jpg
 ---
+
+{%- include vars -%}
 
 A tool kit, sewing kit, and first aid kit are all necessities in any household. You may not need them right now, but you’ll certainly do at some point. This is somewhat of an unspoken rule everybody subconsciously learned growing up. Lately, with everyone and their grandma having a ton of devices, having a good repair kit has quickly started to become one of those necessities. You never know when one of your devices will break down and you must fix it. Perhaps you want to replace your phone screen or reattach loose components inside a gaming console (both things I’ve had to do just this year). Even if your devices never break (*they will*) you might need to assemble something like a custom-built PC. Whatever the case may be, having a repair kit is a no-brainer.
 
-Personally I’ve been using a [repair kit from iFixit](https://www.amazon.com/iFixit-Pro-Tech-Toolkit-Electronics/dp/B01GF0KV6G/ref=as_li_ss_tl?keywords=Pro%27s+kit&qid=1565873996&s=gateway&sr=8-3&linkCode=ll1&tag=reviewhuntr-20&linkId=8e0008b07dcac72597d418b46d799704&language=en_US) since 2015 and I’ve been super happy with it… until a couple of days ago when I stumbled upon the [***Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit***](https://www.amazon.com/gp/product/B07DB7ZT5P/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=reviewhuntr-20&linkId=f6de5cd21708a10262731d2024be56e3&language=en_US). It’s an ***electric screwdriver repair kit*** with an incredibly stylish design. I. Need. This. In. My. Life.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=reviewhuntr-20&language=en_US&marketplace=amazon&region=US&placement=B07DB7ZT5P&asins=B07DB7ZT5P&linkId=1a3c23ca2d53dcc8a133f06297d1e605&show_border=true&link_opens_in_new_window=true"></iframe>
+Personally I’ve been using a {%- include product.html id=5 return="sn-link" -%} since 2015 and I’ve been super happy with it… until a couple of days ago when I stumbled upon the {{ link }}. It’s an ***electric screwdriver repair kit*** with an incredibly stylish design. I. Need. This. In. My. Life.
 
 ### The Screwdriver
 
-The [***Ruputas Wowstick 1F+ Electric Screwdriver***](https://www.amazon.com/gp/product/B07DB7ZT5P/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=reviewhuntr-20&linkId=f6de5cd21708a10262731d2024be56e3&language=en_US) is an electric screwdriver. But not one of those big electric screwdrivers made for building that you’re probably thinking of. This tool is made specifically for device repair. Because of this it doesn’t have to be any larger than your average whiteboard pencil. Unlike any other tool that you put away after use and then have to dig up when you need it, the [***Ruputas Wowstick 1F+***](https://www.amazon.com/gp/product/B07DB7ZT5P/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=reviewhuntr-20&linkId=f6de5cd21708a10262731d2024be56e3&language=en_US) has such a sleek, modern design that you might as well leave it on your desk as decoration. In-fact, since *Ruputas* include an equally stylish stand for the tool I’m pretty sure that’s what they intend for you to do.
+The {{ link }} is an electric screwdriver. But not one of those big electric screwdrivers made for building that you’re probably thinking of. This tool is made specifically for device repair. Because of this it doesn’t have to be any larger than your average whiteboard pencil. Unlike any other tool that you put away after use and then have to dig up when you need it, the {{ sn-link }} has such a sleek, modern design that you might as well leave it on your desk as decoration. In-fact, since *Ruputas* include an equally stylish stand for the tool I’m pretty sure that’s what they intend for you to do.
 
-But, let’s be honest. You’re probably not buying an electric screwdriver for the looks. You’re buying it because of its usefulness. So, how good is the [***Ruputas Wowstick 1F+***](https://www.amazon.com/gp/product/B07DB7ZT5P/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=reviewhuntr-20&linkId=f6de5cd21708a10262731d2024be56e3&language=en_US)? It has a rated speed of 200rpm and a rated torque of 0.15/3N.M which basically translates to: it’s definitely powerful enough. On top of that, the tip of the tool is equipped with three LED lights which means there’s no need to try get that stupidly far in screw out while simultaneously trying to balance your phone with flashlight on between your chin and chest because the light won’t reach. No, I’m not still salty from the last time this happened. Not at all.
+But, let’s be honest. You’re probably not buying an electric screwdriver for the looks. You’re buying it because of its usefulness. So, how good is the {{ sn-link }}? It has a rated speed of 200rpm and a rated torque of 0.15/3N.M which basically translates to: it’s definitely powerful enough. On top of that, the tip of the tool is equipped with three LED lights which means there’s no need to try get that stupidly far in screw out while simultaneously trying to balance your phone with flashlight on between your chin and chest because the light won’t reach. No, I’m not still salty from the last time this happened. Not at all.
 
 To top it all off the tool is not only useful, powerful, and stylish but also incredibly easy to use. Just pick it up, slip in the bit (or *screwhead* as some insist on calling them) and you’re good to go. There’s only one key for you to press. Pressing the bottom part of it will rotate the bit forwards and pressing the top part rotates it back. Now, I’m really only mentioning this because *Ruputas* lists this as one of their selling points but, honestly, have you ever seen an electric screwdriver that isn’t this easy to use?
 
@@ -35,7 +33,7 @@ Now, I know what you’re thinking. “That’s cool and all but wouldn’t the 
 
 Of course, you’ll also receive a charging cable.
 
-### What are other people saying?
+### What other people are saying
 
 Looking at the Amazon reviews, customers seem to be satisfied with the product. They’ve been praising the design and the practically of the device as well as the include accessories. It seems like the most praised aspects (except the convenience factor) of the kit is the included magnetic mat, the LED lights on the tip of the screwdriver, and the sheer number of bits included in the box.
 
@@ -47,8 +45,6 @@ One odd quirk I haven’t seen mentioned in any reviews is the fact that the sta
 
 ### Conclusion
 
-Having a repair kit at home for all your devices is quickly becoming as much of a necessity as having a tool kit, sewing kit, and first aid kit. The [***Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit***](https://www.amazon.com/gp/product/B07DB7ZT5P/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=ll1&tag=reviewhuntr-20&linkId=f6de5cd21708a10262731d2024be56e3&language=en_US) is seemingly the perfect one. Not only do you get and extremely stylish electric screwdriver, but you also get essential repair tools as well as 56 different bits (screwheads).
+Having a repair kit at home for all your devices is quickly becoming as much of a necessity as having a tool kit, sewing kit, and first aid kit. The {{ link }} is seemingly the perfect one. Not only do you get and extremely stylish electric screwdriver, but you also get essential repair tools as well as 56 different bits (screwheads).
 
 I highly recommend picking this kit up. Even if you don’t need it now you *will* need it in the future. Best to be prepared.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=reviewhuntr-20&language=en_US&marketplace=amazon&region=US&placement=B07DB7ZT5P&asins=B07DB7ZT5P&linkId=1a3c23ca2d53dcc8a133f06297d1e605&show_border=true&link_opens_in_new_window=true"></iframe>

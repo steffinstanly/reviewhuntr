@@ -1,0 +1,27 @@
+{%- assign product = site.data.products | where:"id",include.id | first -%}
+
+<!-- product url -->
+{%- if include.return == "url" -%}
+    {{ product.url }}?tag={{ site.amazon-aid }}
+{%- endif -%}
+
+<!-- product full name -->
+{%- if include.return == "name" -%}
+    {{ product.name }}
+{%- endif -%}
+
+<!-- link with full name -->
+{%- if include.return == "link" -%}
+  <span> <a 
+      class="product-link"
+      href="{{ product-url }}" 
+      target="_blank">{{ product.name }}</a> </span>
+{%- endif -%}
+
+<!-- link with short name -->
+{%- if include.return == "sn-link" -%}
+  <span> <a 
+      class="product-link" 
+      href="{{ product-url }}" 
+      target="_blank">{{ product.short-name }}</a> </span>
+{%- endif -%}

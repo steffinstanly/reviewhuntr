@@ -1,25 +1,26 @@
+{%- include vars -%}
 <script type="application/ld+json">
   {
       "@context": "http://schema.org",
       "@type": "BlogPosting",
-      "headline": "{{ page.title }}",
+      "headline": "{{ product-title }}",
       "description": "{{ page.content | strip_html | truncatewords: 100 }}",
       "image": [
-          {% if page.ogimagenull %}
-          {% elsif page.ogimage %}
+          {%- if page.ogimagenull -%}
+          {%- elsif page.ogimage -%}
               "{{ site.url }}/assets/img/posts/{{page.ogimage}}"
-          {% elsif page.img %}
-              "{{ site.url }}/assets/img/posts/{{page.img}}"
-          {% else %}
+          {%- elsif header-img -%}
+              "{{ site.url }}/assets/img/posts/{{header-img}}"
+          {%- else -%}
               "{{ site.url }}/assets/img/{{ page.author-img }}"
-          {% endif %}
+          {%- endif -%}
       ],
       "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
       },
       "datePublished": "{{page.date}}",
-      "dateModified": "{% if page.modified %}{{page.modified}}{% else %}{{page.date}}{% endif %}",
+      "dateModified": "{%- if page.modified -%}{{page.modified}}{%- else -%}{{page.date}}{%- endif -%}",
       "isAccessibleForFree": "True",
       "isPartOf": {
           "@type": ["CreativeWork", "Product", "Blog"],
@@ -29,16 +30,16 @@
       "license": "http://creativecommons.org/licenses/by-sa/4.0/",
       "author": {
           "@type": "Person",
-          "name": "{% include person.html key='id' value=page.author return='name' %}",
+          "name": "{%- include person.html id=page.author return='name' -%}",
           "description": "{{ page.description }}",
           "sameAs": "{{ site.url }}/about",
           "image": {
               "@type": "ImageObject",
-              "url": "{% if page.author-img %}{{ site.url }}/assets/img/{{ page.author-img }} {% endif %}"
+              "url": "{%- if page.author-img -%}{{ site.url }}/assets/img/{{ page.author-img }} {%- endif -%}"
           },
           "givenName": "",
           "familyName": "",
-          "alternateName": "{% include person.html key='id' value=page.author return='name' %}",
+          "alternateName": "{%- include person.html id=page.author return='name' -%}",
           "publishingPrinciples": "{{ site.url }}/about/"
       },
       "publisher": {

@@ -763,6 +763,11 @@ template {
   color: #999;
 }
 
+.product-link {
+  font-weight: bold;
+  font-style: oblique;
+}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

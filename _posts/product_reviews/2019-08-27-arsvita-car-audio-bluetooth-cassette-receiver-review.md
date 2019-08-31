@@ -1,12 +1,13 @@
 ---
 layout: post
 author: 12
-title: Arsvita Car Audio Bluetooth Cassette Receiver - Review
+product: 16
 tags: [Bluetooth Adapters, Car Accessories]
-img: /posts/arsvita-car-audio-bluetooth.jpg
 ---
 
-Are you a music lover? Do you not like local radio stations, or get tired of not having music on demand? More importantly, does your car only have a tape player? Since most bands stopped putting out tapes sometime in the early 2000s, having the ability to play them in your car isn't seen as such a big positive anymore. And, if you can't afford to replace the entire stereo, it can seem like you're stuck with the oldies and that random tape of the Oakridge Boys that somehow made its way into that one tucked-away box of junk that never gets thrown out. CDs, too, are going the way of the dinosaur, so those old adapters don't work as well anymore. But the [***Arsvita Car Audio Bluetooth Cassette Receiver***](https://www.amazon.com/Arsvita-Bluetooth-Cassette-Receiver-Adapter/dp/B07QSW6KNY?tag=reviewhuntr-20) seems to be a good choice in overcoming this hurdle, and getting your favorite tunes playing again!
+{%- include vars -%}
+
+Are you a music lover? Do you not like local radio stations, or get tired of not having music on demand? More importantly, does your car only have a tape player? Since most bands stopped putting out tapes sometime in the early 2000s, having the ability to play them in your car isn't seen as such a big positive anymore. And, if you can't afford to replace the entire stereo, it can seem like you're stuck with the oldies and that random tape of the Oakridge Boys that somehow made its way into that one tucked-away box of junk that never gets thrown out. CDs, too, are going the way of the dinosaur, so those old adapters don't work as well anymore. But the {{ link }} seems to be a good choice in overcoming this hurdle, and getting your favorite tunes playing again!
 
 ### What Is It?
 
@@ -18,7 +19,7 @@ There are two main categories of people who would do well with this product. The
 
 ### Interesting Features
 
-Without a doubt, the most interesting feature of the [***Arsvita Car Audio Bluetooth Cassette Receiver***](https://www.amazon.com/Arsvita-Bluetooth-Cassette-Receiver-Adapter/dp/B07QSW6KNY?tag=reviewhuntr-20) is directly in its name:  Bluetooth. Unlike similar cassette adapters, this one is capable of connecting to your devices via Bluetooth. This saves a lot of hassle. Instead of having to manually plug in your phone or mp3 player every time you get into the car, it can automatically connect for you! Since your phone won't have to leave wherever you normally store it while driving, such as your purse, a stand, or even just a cup holder, you'll be less likely to leave it behind. You'll also get rid of all of the bulky cords that seem to only clutter up the area and take up space. Do you take calls while driving? You can with this! Being hands-free is a safe way to keep up communication on the go, and this product offers it.
+Without a doubt, the most interesting feature of the {{ link }} is directly in its name:  Bluetooth. Unlike similar cassette adapters, this one is capable of connecting to your devices via Bluetooth. This saves a lot of hassle. Instead of having to manually plug in your phone or mp3 player every time you get into the car, it can automatically connect for you! Since your phone won't have to leave wherever you normally store it while driving, such as your purse, a stand, or even just a cup holder, you'll be less likely to leave it behind. You'll also get rid of all of the bulky cords that seem to only clutter up the area and take up space. Do you take calls while driving? You can with this! Being hands-free is a safe way to keep up communication on the go, and this product offers it.
 
 ### The Good
 
@@ -30,4 +31,4 @@ While there are a lot of good reviews, 13% of the reviews for the product are on
 
 ### Conclusion
 
-So, what do we make of the [***Arsvita Car Audio Bluetooth Cassette Receiver***](https://www.amazon.com/Arsvita-Bluetooth-Cassette-Receiver-Adapter/dp/B07QSW6KNY?tag=reviewhuntr-20)? With all of the facts, it seems to be a fairly nice choice for anyone who wants to listen to modern music in an antique car. The good reviews dwarf any of the bad ones. There are some problems with it, but the company seems to be on top of the matter when it comes to righting any wrongs. All-in-all, it's a great purchase to make.
+So, what do we make of the {{ link }}? With all of the facts, it seems to be a fairly nice choice for anyone who wants to listen to modern music in an antique car. The good reviews dwarf any of the bad ones. There are some problems with it, but the company seems to be on top of the matter when it comes to righting any wrongs. All-in-all, it's a great purchase to make.

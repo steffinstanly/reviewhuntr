@@ -1,0 +1,1 @@
+{%- include varfiles/product.html id=page.product -%}

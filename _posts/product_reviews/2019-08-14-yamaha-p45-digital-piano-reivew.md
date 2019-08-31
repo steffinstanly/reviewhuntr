@@ -1,10 +1,11 @@
 ---
 layout: post
 author: 5
-title: Yamaha P45 - Digital Piano Review
+product: 2
 tags: [Musical Instruments]
-img: /posts/yamaha-p45-88-key.jpg
 ---
+
+{%- include vars -%}
 
 Whether you’re just taking your first steps into the music world, or you already own a keyboard but you’re considering upgrading to a better one… there are some things you might want to consider before purchasing a new digital piano. First, the size of the keyboard, or more precisely, the number of keys. This will determine the higher and lower notes you’ll be able to reach. If you’re a beginner, you might be tempted to buy a small one, thinking you won’t be reading notes way above or below the middle staff. However, you’ll soon find yourself somewhat limited if your keyboard has less than five full octaves.
 
@@ -18,21 +19,19 @@ A good pivot will determine the amount of force it takes to press the keys and p
 
 To imitate the feel of an acoustic piano, manufacturers use some variation of what is known as weighted action. It basically makes the keys feel more like the keys on a traditional piano.
 
-The [***Yamaha P-45B***](https://www.amazon.com/Yamaha-88-Key-Weighted-Digital-P45B/dp/B00UJ9LNDK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mrpowerscript-20&linkId=efb39a70206386fe095dc917afd29e46&language=en_US) in particular, is a weighted hammer-action simulated piano, heavier in the low end and lighter in the high end, just like an acoustic piano. This allows it to respond best, especially to velocity variation.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mrpowerscript-20&language=en_US&marketplace=amazon&region=US&placement=B00UJ9LNDK&asins=B00UJ9LNDK&linkId=5311f18d385181f51a641f8641da4a0a&show_border=true&link_opens_in_new_window=true"></iframe>
+The {{ sn-link }} in particular, is a weighted hammer-action simulated piano, heavier in the low end and lighter in the high end, just like an acoustic piano. This allows it to respond best, especially to velocity variation.
 
 What’s more, without weighted action, the keys on the keyboard would be “easier” to play, since it would feel more like an organ and less like a piano. This will give you an advantage, since it’s easy to move to an organ when you’re used to weighted action keys, but not so much in reverse.
 
 On this, most reviewers said that the weight of the keys and response feels like a real piano. Similar to this, other users said that the weighted action keys are great, and couldn’t tell any difference from a real piano. However, they also commented that the sound is good, but not great. The dynamic range has also been a point for concern. Although the keys are touch sensitive, the difference in volume between pounding on them and lightly touching them has been noted to be different to what you find on a real piano.
 
-Other buyers had a different view on this aspect, and commented that the sound you can obtain with the  [***Yamaha P-45B***](https://www.amazon.com/Yamaha-88-Key-Weighted-Digital-P45B/dp/B00UJ9LNDK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mrpowerscript-20&linkId=efb39a70206386fe095dc917afd29e46&language=en_US) is very realistic.
+Other buyers had a different view on this aspect, and commented that the sound you can obtain with the {{ sn-link }} is very realistic.
 
 The minimalist approach of the keyboard has also been praised. The reduced number of buttons give the piano a cleaner and less cluttered look. There’s also less voice options when compared to other models—only 2 grand pianos, 2 electric pianos, 2 organs, 2 harpsichords, 1 strings and 1 vibraphone.
 
 The users considered this to be beneficial, since most pianos would have a ridiculously large variety of extra tunes rarely used. Most pianists will likely toggle between the acoustic piano, electric piano and organ. Even though it might be fun one or two times, you won’t need to play your piano with a tuba sound very often.
 
-Another positive point of the  [***Yamaha P-45B***](https://www.amazon.com/Yamaha-88-Key-Weighted-Digital-P45B/dp/B00UJ9LNDK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mrpowerscript-20&linkId=efb39a70206386fe095dc917afd29e46&language=en_US) is that the speakers are facing down out of the bottom of the piano, instead of up, as is common in most designs. This allows for the sound to come out richer and less like it’s a plastic toy keyboard.
+Another positive point of the {{ sn-link }} is that the speakers are facing down out of the bottom of the piano, instead of up, as is common in most designs. This allows for the sound to come out richer and less like it’s a plastic toy keyboard.
 
 It comes with very useful functions, like a metronome, and customizable preferences for reverb type and depth. But perhaps the most wanted option is the two-person mode, which splits the keyboard in half and duplicates the octaves, each with their own sound. This is a great feature because it lets the user play a bass line with the left hand while playing chords and/or a melody with the other, all the while using different sounds.
 
@@ -42,6 +41,4 @@ It also comes with a power adapter and sustain pedal. The latter is a particular
 
 Overall, despite some users commenting that the quality of the sound is not the best, most agree that even though it might sound not like a real piano, it gets really close.
 
-For a full-size weighted-hammer action keyboard, this is a really good option considering that similar keyboards can cost well over $1000. So, if you’re looking for a good-quality keyboard that’s also low-budget, the  [***Yamaha P-45B***](https://www.amazon.com/Yamaha-88-Key-Weighted-Digital-P45B/dp/B00UJ9LNDK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mrpowerscript-20&linkId=efb39a70206386fe095dc917afd29e46&language=en_US) will meet all your needs.
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mrpowerscript-20&language=en_US&marketplace=amazon&region=US&placement=B00UJ9LNDK&asins=B00UJ9LNDK&linkId=5311f18d385181f51a641f8641da4a0a&show_border=true&link_opens_in_new_window=true"></iframe>
+For a full-size weighted-hammer action keyboard, this is a really good option considering that similar keyboards can cost well over $1000. So, if you’re looking for a good-quality keyboard that’s also low-budget, the {{ sn-link }} will meet all your needs.

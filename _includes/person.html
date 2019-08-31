@@ -1,5 +1,2 @@
-{% for person in site.data.people %}
-  {% if person[include.key] == include.value %}
-    {{ person[include.return] | default: ReviewHuntr }}
-  {% endif %}
-{% endfor %}
+{%- assign person = site.data.people | where:"id",include.id | first -%}
+{{ person[include.return] | default: "ReviewHuntr" }}

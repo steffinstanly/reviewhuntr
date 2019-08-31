@@ -1,46 +1,48 @@
 ---
 layout: main
 ---
+
+{%- include vars -%}
 <article class="article-page">
   <div class="page-content">
-    {% if page.img %}
+    {%- if header-img -%}
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        {% if page.fig-caption %}
+        <img class="page-image" src="{{ "/assets/img/posts/" | strip | prepend: site.baseurl | append: header-img }}" alt="{{product-title}}">
+        {%- if page.fig-caption -%}
           <figcaption>{{page.fig-caption}}</figcaption>
-        {% endif %}
+        {%- endif -%}
       </figure>
     </div> <!-- End Page Cover Image -->
-    {% else %}
-    {% endif %}
+    {%- else -%}
+    {%- endif -%}
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">{{page.title | escape}}</h1>
-        {% if site.data.people[page.author].author-url %}
-          <a target="_blank" href="{% include person.html key='id' value=page.author return='author-url' %}"><span class="post-author">{% include person.html key='id' value=page.author return='name' %}</span></a>
-        {% else %}
+        <h1 class="page-title">{{product-title | escape}}</h1>
+        {%- if site.data.people[page.author].author-url -%}
+          <a target="_blank" href="{%- include person.html id=page.author return='author-url' -%}"><span class="post-author">{%- include person.html id=page.author return='name' -%}</span></a>
+        {%- else -%}
           <span class="post-author">
-            {% include person.html key='id' value=page.author return='name' %}
+            {%- include person.html id=page.author return='name' -%}
           </span>
-        {% endif %}
+        {%- endif -%}
 
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
       <hr>
-      {% assign search_values = page.tags | join: " " %}
-      {% include affiliate-info.html search_phrase=search_values %}
+      {%- assign search_values = page.tags | join: " " -%}
+      {%- include affiliate-info.html search_phrase=search_values -%}
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://twitter.com/intent/tweet?text={{ product-title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
           <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
           <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
-          {% for tag in page.tags %}
+          {%- for tag in page.tags -%}
             <a href="{{ site.url }}/reviews#{{tag | cgi_escape }}" class="tag">&#35; {{ tag }}</a>
-          {% endfor %}
+          {%- endfor -%}
         </div>
       </div>
     </div> <!-- End Wrap Content -->

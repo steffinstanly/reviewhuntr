@@ -1,0 +1,126 @@
+- id: 0
+- id: 1
+  name: Audeze LCD-3 Over Ear Headphones Fazor Elements
+  short-name: Audeze LCD-3
+  url: https://www.amazon.com/Audeze-Headphone-Zebrano-Suspension-Headband/dp/B00O12MH1S
+  imgs: [ "udeze-lcd-3-over.jpg" ]
+- id: 2
+  name: Yamaha P45 - Digital Piano
+  short-name: Yamaha P-45B
+  url: https://www.amazon.com/Yamaha-88-Key-Weighted-Digital-P45B/dp/B00UJ9LNDK
+  imgs: [ "yamaha-p45-88-key.jpg" ]
+- id: 3
+  name: Audeze Mobius Premium 3D Gaming Headset with Surround Sound
+  short-name: Audeze Mobius headset
+  url: https://www.amazon.com/Audeze-Immersive-Cinematic-Headphones-Bluetooth/dp/B07BDQZ52Z
+  imgs: [ "audeze-mobius-premium-3d.jpg" ]
+- id: 3
+  name: Nuraphone - Wireless Bluetooth Over Ear Headphones With Earbuds
+  short-name: Nuraphone Wireless Headphones
+  url: https://www.amazon.com/nuraphone-Bluetooth-Headphones-Personalized-Cancellation/dp/B076X4KH11
+  imgs: [ "nuraphone-wireless-over-the.jpg" ]
+- id: 4
+  name: Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit
+  short-name: Ruputas Wowstick 1F+
+  url: https://www.amazon.com/dp/B076X4KH11
+  imgs: [ "ruputas-wowstick-1f-electric.jpg" ]
+- id: 5
+  name: iFixit Pro Tech Toolkit - Electronics, Smartphone, Computer & Tablet Repair Kit
+  short-name: iFixit Pro Tech Toolkit
+  url: https://www.amazon.com/iFixit-Pro-Tech-Toolkit-Electronics/dp/B01GF0KV6G
+  imgs: [ ]
+- id: 6
+  name: Bang & Olufsen B&O Play H8i
+  short-name: B&O Beoplay H8i
+  url: https://www.amazon.com/Bang-Olufsen-1645146-Cancellation-Transparency/dp/B078HPHLPR
+  imgs: [ "bang-and-olufsen-play.jpg" ]
+- id: 7
+  name: Neato Robotics D7 Connected Laser Guided Smart Robot Vacuum
+  short-name: Neato Robotics D7
+  url: https://www.amazon.com/Neato-Robotics-Connected-Featuring-Multiple/dp/B078MPFN55
+  imgs: [ "neato-robotics-d7-robot.jpg" ]
+- id: 8
+  name: Apple iMac 27-inch Retina 5K
+  short-name: iMac Retina 5K
+  url: https://www.amazon.com/dp/B07Q1NBCVB
+  imgs: [ "apple-imac-27-inch.jpg" ]
+- id: 9
+  name: Audeze LCD-4 Over Ear Headphones
+  short-name: Audeze LCD-4
+  url: https://www.amazon.com/Audeze-LCD-4-Headphone-Ebony-Leather/dp/B01DTQ6AMS
+  imgs: [ "audeze-lcd-4-over.jpg" ]
+- id: 10
+  name: Audeze LCD-3 Over Ear Headphones Fazor Elements MAPLE WOOD VERSION
+  short-name: Audeze LCD-3
+  url: https://www.amazon.com/AUDEZE-LCD-3-Headphone-Maple-Leather/dp/B07D9WWKTS
+  imgs: [ "audeze-lcd-3-wood.jpg" ]
+- id: 11
+  name: HIFIMAN HE1000 V2 Over Ear Headphones
+  short-name: HIFIMAN HE1000 V2
+  url: https://www.amazon.com/HIFIMAN-HE1000-V2-Magnetic-Headphone/dp/B01I50644C
+  imgs: [ "hifiman-he1000-v2-over.jpg" ]
+- id: 12
+  name: iRobot Roomba 980 Robot Vacuum
+  short-name: iRobot Roomba 980
+  url: https://www.amazon.com/iRobot-Vacuum-Connected-Mapping-Carpets/dp/B013E9L4ZS
+  imgs: [ "irobot-roomba-980-robot.jpg" ]
+- id: 13
+  name: Acer Predator Helios 300 Gaming Laptop
+  short-name: Acer Preditor helios 300
+  url: https://www.amazon.com/PH315-51-78NP-Acer-Predator-Helios/dp/B07CTHLX8C
+  imgs: [ "acer-predator-helios-300" ]
+- id: 14
+  name: 2019 HP Premium HD Laptop
+  short-name: 2019 HP Premium HD Laptop
+  url: https://www.amazon.com/HP-15-6-inch-Dual-Core-MaxxAudio-Bluetooth/dp/B07QKWTZ4B
+  imgs: [ "hp-premium-hd-laptop.jpg" ]
+- id: 15
+  name: Canon EOS Rebel T6 Digital SLR Camera Kit with EF-S 18-55mm f/3.5-5.6 IS II Lens (Black)
+  short-name: Canon EOS Rebel T6
+  url: https://www.amazon.com/dp/B01CO2JPYS
+  imgs: [ "canon-eos-rebel-t6.jpg" ]
+- id: 16
+  name: Arsvita Car Audio Bluetooth Cassette Receiver
+  short-name: Arsvita Car Audio Bluetooth Cassette Receiver
+  url: https://www.amazon.com/Arsvita-Bluetooth-Cassette-Receiver-Adapter/dp/B07QSW6KNY
+  imgs: [ "arsvita-car-audio-bluetooth.jpg" ]
+- id: 17
+  name: MSI GeForce GTX 1080
+  short-name: MSI Geforce GTX 1080
+  url: https://www.amazon.com/MSI-GeForce-GTX-1080-GAMING/dp/B01HHBQBLG
+  imgs: [ "msi-geforce-gtx-1080.jpg" ]
+- id: 18
+  name: Concept2 Model D Indoor Rowing Machine
+  short-name: Concept2 Rowing Machine
+  url: https://www.amazon.com/Concept2-Performance-Monitor-Indoor-Machine/dp/B00NH9WEUA
+  imgs: [ "concept2-model-d-indoor.jpg" ]
+- id: 19
+  name: CyberpowerPC Gamer Xtreme VR Gaming PC
+  short-name: CyberpowerPC Gamer Xtreme VR Gaming PC
+  url: https://www.amazon.com/https://www.amazon.com/CyberpowerPC-Xtreme-i5-9400F-GeForce-GXiVR8060A7/dp/B07PKXQBHN
+  imgs: [ "cyberpowerpc-gamer-xtreme-vr.jpg" ]
+- id: 20
+  name: Doona Infant Car Seat & Latch Base
+  short-name: Doona Infant car seat
+  url: https://www.amazon.com/Doona-Infant-Seat-Latch-Base/dp/B07HML1BT5
+  imgs: [ "doona-infant-car-seat.jpg" ]
+- id: 21
+  name: NETGEAR Nighthawk Smart WIFI Router
+  short-name: NETGEAR Nighthawk WIFI Router
+  url: https://www.amazon.com/dp/B07C65K9H9
+  imgs: [ "netgear-nighthawk-smart-wifi.jpg" ]
+- id: 22
+  name: NordicTrack T Series 6.5S and 6.5Si Treadmill
+  short-name: NordicTrack T Series
+  url: https://www.amazon.com/NordicTrack-NTL17915-6-5-Treadmill-World-class/dp/B0193V3DJ6
+  imgs: [ "nordictrack-tseries-65s-65si.jpg" ]
+- id: 23
+  name: Oculus Rift S PC-Powered VR Gaming Headset
+  short-name: Oculus Rift S
+  url: https://www.amazon.com/Oculus-Rift-PC-Powered-Gaming-Headset-pc/dp/B07PTMKYS7
+  imgs: [ "oculus-rift-s-pc.jpg" ]
+- id: 24
+  name: SimpliSafe 12- Piece Home Security System with HD Camera and Smoke Detector
+  short-name: SimpliSafe Home Security System
+  url: https://www.amazon.com/SimpliSafe-12-Piece-Security-System-Detector/dp/B07C4WT5LQ
+  imgs: [ "simplisafe-12-piece-home.jpg" ]
