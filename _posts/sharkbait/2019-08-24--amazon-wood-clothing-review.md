@@ -1,10 +1,8 @@
 ---
 layout: post
 author: 9
-author_url: http://instagram.com/jdalfonzo
-title: Destroy the Amazon rainforest for charity with Amazonian wood clothing - Review
+product: 26
 tags: [sharkbait]
-img: /posts/amazon-wood-clothing-review.jpg
 ---
 
 After a hard time trying to figure out a way to help save the amazon following weeks of insane deforestation and colossal fires, this new line of clothes entirely made out of Amazonian wood wants to make a big entrance into the ecological design market -and they did it-.

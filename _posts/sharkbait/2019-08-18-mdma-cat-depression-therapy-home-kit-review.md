@@ -1,9 +1,8 @@
 ---
 layout: post
-author: ReviewHuntr
-title: MDMA Therapy Home Kit For Cat Depression - Review
+author: 0
+product: 25
 tags: [sharkbait]
-img: /posts/mdma-cat-depression-therapy.jpg
 ---
 
 Depression has become a common topic of discussion for more and more people. In part because of revolutionary approaches to treating depression hitting the news. Various studies show that party drugs are currently in use for more than their traditional purposes. Helping people heal from past traumas, PTSD, depressions, and more. For example, the promising results from therapies using MDMA add a whole new hue to discussions regarding drug laws and medicine.
