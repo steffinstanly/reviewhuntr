@@ -1,7 +1,5 @@
 {%- assign product = site.data.products | where:"id",include.id | first -%}
 
-{{ product }}
-
 {%- comment -%} product url {%- endcomment -%}
 {%- if include.return == "url" -%}
     {{ product.url }}?tag={{ site.amazon-aid }}
