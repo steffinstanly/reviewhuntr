@@ -1,7 +1,7 @@
 ---
 layout: post
 author: 6
-product: 3
+product: 3.1
 tags: [Headphones]
 ---
 
