@@ -1,9 +1,23 @@
 {%- assign product = site.data.products | where:"id",include.id | first -%}
 
-<!-- product url -->
-{%- if product.url -%}
-  {%- capture product-url -%}
-    {{ product.url }}?tag={{ site.amazon-aid }}
+<!-- product name -->
+{%- if product.name -%}
+  {%- capture product-name -%}
+    {{ product.name }}
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- product asin -->
+{%- if product.asin -%}
+  {%- capture product-asin -%}
+    {{ product.asin }}
+  {%- endcapture -%}
+{%- endif -%}
+
+<!-- Amazon url -->
+{%- if product.asin -%}
+  {%- capture amazon-url -%}
+    {{ site.data.amazon.product-url }}{{ product.asin }}?tag={{ site.amazon-aid }}
   {%- endcapture -%}
 {%- endif -%}
 
@@ -19,7 +33,7 @@
   {%- capture link -%}
   <span><a 
       class="product-link"
-      href="{{ product-url }}" 
+      href="{{ amazon-url }}" 
       target="_blank">{{ product.name }}</a></span>
   {%- endcapture -%}
 {%- endif -%}
@@ -29,7 +43,7 @@
   {%- capture sn-link -%}
   <span><a 
       class="product-link" 
-      href="{{ product-url }}" 
+      href="{{ amazon-url }}" 
       target="_blank">{{ product.short-name }}</a></span>
   {%- endcapture -%}
 {%- endif -%}

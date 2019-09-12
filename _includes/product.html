@@ -2,8 +2,9 @@
 
 {%- comment -%} product url {%- endcomment -%}
 {%- if include.return == "url" -%}
-    {{ product.url }}?tag={{ site.amazon-aid }}
-{%- endif -%}
+  {{ site.data.amazon.product-url }}{{ product.asin }}?tag={{ site.amazon-aid }}
+
+  {%- endif -%}
 
 {%- comment -%} product full name {%- endcomment -%}
 {%- if include.return == "name" -%}
@@ -14,7 +15,7 @@
 {%- if include.return == "link" -%}
   <span> <a 
       class="product-link"
-      href="{{ product-url }}" 
+      href="{{ amazon-url }}" 
       target="_blank">{{ product.name }}</a> </span>
 {%- endif -%}
 
@@ -22,7 +23,7 @@
 {%- if include.return == "sn-link" -%}
   <span> <a 
       class="product-link" 
-      href="{{ product-url }}" 
+      href="{{ amazon-url }}" 
       target="_blank">{{ product.short-name }}</a> </span>
 {%- endif -%}
 
