@@ -11,7 +11,7 @@ pagination:
   {%- else -%}
   {%- endif -%}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title | escape}}</a></h2>
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{product-name | escape}} - Review</a></h2>
     <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
     {%- if site.data.people[post.author].author-url -%}
       <a target="_blank" href="{%- include person.html id=post.author return='author-url' -%}"><span class="post-author">{%- include person.html id=post.author return='name' -%}</span></a> —
