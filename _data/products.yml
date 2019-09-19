@@ -131,11 +131,14 @@
 - id: 26
   name: Destroy the Amazon rainforest for charity with Amazonian wood clothing
   short-name: ""
-  url: ""
   imgs: [ "amazon-wood-clothing-review.jpg" ]
 - id: 27
   name: Audeze LCD-X Over Ear Open Back Headphone with New Suspension Headband Creator Package – no Travel case
   short-name: Audeze LCD-X
-  url: ""
   imgs: [ "audeze-lcd-x-over.jpg" ]
   asin: B0765KJ5CB
+- id: 28
+  name: DELONGHI ESAM3300 Super Automatic Espresso/Coffee Machine
+  short-name: DELONGHI ESAM3300
+  imgs: [ "elonghi-ESAM3300-super-automatic.jpg" ]
+  asin: B000N2YKQ0
