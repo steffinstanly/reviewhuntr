@@ -145,5 +145,5 @@
 - id: 29
   name: GoWISE USA 8-Quart 8-in-1 Electric Pressure Cooker/Slow Cooker
   short-name: GoWISE 8-in-1 Cooker
-  imgs:
+  imgs: [ "gowise-usa-8-quart.jpg" ]
   asin: B00GTU2UQM
