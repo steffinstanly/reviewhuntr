@@ -143,6 +143,11 @@
   imgs: [ "elonghi-ESAM3300-super-automatic.jpg" ]
   asin: B000N2YKQ0
 - id: 29
+  name: GoWISE USA 8-Quart 8-in-1 Electric Pressure Cooker/Slow Cooker
+  short-name: GoWISE 8-in-1 Cooker
+  imgs: [ "gowise-usa-8-quart.jpg" ]
+  asin: B00GTU2UQM
+- id: 30
   name: The New Darkphone by DarkWeb
   short-name: DarkWeb Darkphone
   imgs: [ "the-new-darkweb-darkphone.jpg"]
