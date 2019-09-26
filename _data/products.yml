@@ -142,3 +142,7 @@
   short-name: DELONGHI ESAM3300
   imgs: [ "elonghi-ESAM3300-super-automatic.jpg" ]
   asin: B000N2YKQ0
+- id: 29
+  name: The New Darkphone by DarkWeb
+  short-name: DarkWeb Darkphone
+  imgs: [ "the-new-darkweb-darkphone.jpg"]
