@@ -60,7 +60,8 @@ jobs:
             git config --global user.name "MrPowerScripts"
       - install-deps
       - run: bundle exec gulp jekyll-build
-      - run: find ./_site/assets/img -type d -exec sh -c 'ls "$0"/*.jpg 2>/dev/null && jpegoptim --size=70k --strip-all -t "$0"/*.jpg' {} \;
+      - run: find ./_site/assets/img/posts -name '*.jpg' -execdir mogrify -resize 500x {} \;
+      - run: find ./_site/assets/img -type d -exec sh -c 'ls "$0"/*.jpg 2>/dev/null && jpegoptim --size=70k --max=90 --all-progressive --strip-all -t "$0"/*.jpg' {} \;
       - run: |
           cd $DIRECTORY
           git add -A
