@@ -917,6 +917,11 @@ table tfoot td {
   clear: both;
 }
 
+.suggested-reviews-list li {
+  font-size: 115%;
+  margin-bottom: 5px;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
