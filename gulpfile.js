@@ -12,7 +12,7 @@ var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build', '--incremental'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -47,13 +47,13 @@ gulp.task('sass', function () {
 // Compression images
 gulp.task('img', function() {
   return gulp.src('assets/img/**/*.jpg')
-		.pipe(cache(imagemin({
-			interlaced: true,
-			progressive: true,
-			svgoPlugins: [{removeViewBox: false}],
-			use: [pngquant()]
-    })))
-    .pipe(jp2())
+		// .pipe(cache(imagemin({
+		// 	interlaced: true,
+		// 	progressive: true,
+		// 	svgoPlugins: [{removeViewBox: false}],
+		// 	use: [pngquant()]
+    // })))
+    // .pipe(jp2())
     .pipe(gulp.dest('_site/assets/img'))
     .pipe(browserSync.reload({stream:true}));
 });

@@ -5,3 +5,4 @@ _site
 .bundle
 node_modules
 vendor/bundle
+.jekyll*
