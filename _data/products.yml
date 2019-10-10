@@ -155,3 +155,8 @@
   name: V-MODA XFBT2-MBLACK Crossfade 2 Wireless Over-Ear Headphones
   short-name: V-MODA Headphones
   imgs: [ "vmoda-crossfade-2-wireless.jpg" ]
+- id: 32
+  name: Bose A20 Aviation Headset with Bluetooth Dual Plug Cable, Black
+  short-name: Bose A20 Aviation Headset
+  imgs: [ "Bose-A20-Aviation-Headset-with-Bluetooth.jpg" ]
+  asin: B010FTYIUS
