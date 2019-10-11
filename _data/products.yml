@@ -160,3 +160,18 @@
   short-name: Bose A20 Aviation Headset
   imgs: [ "Bose-A20-Aviation-Headset-with-Bluetooth.jpg" ]
   asin: B010FTYIUS
+- id: 33
+  name: Dyson Supersonic Hair Dryer
+  short-name: Dyson Supersonic Hair Dryer
+  imgs: [ "Dyson-Supersonic-Hair-Dryer-Review.jpg" ]
+  asin: B01F6XZ6BS
+- id: 34
+  name: Parrot PF728000 Anafi Drone, Foldable Quadcopter Drone with 4K HDR Camera
+  short-name: Parrot PF728000 Anafi Drone
+  imgs: [ "Parrot-PF728000-Anafi-Drone.jpg" ]
+  asin: B07D5R2JKL
+- id: 35
+  name: Nintendo Switch – Neon Red and Neon Blue Joy-Con - HAC 001
+  short-name: Nintendo Switch
+  imgs: [ "Nintendo-Switch–Neon-Red-and-Neon-Blue.jpg" ]
+  asin: B01MUAGZ49
