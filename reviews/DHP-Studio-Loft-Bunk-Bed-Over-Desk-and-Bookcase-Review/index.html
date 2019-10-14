@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>DHP Studio Loft Bunk Bed Over Desk and Bookcase - Review - ReviewHuntr.com - The best reviews on the internet.</title><meta content="ReviewHuntr.com - The best reviews on the internet." property="og:site_name"><meta content="DHP Studio Loft Bunk Bed Over Desk and Bookcase - Review" property="og:title"><meta content="article" property="og:type"><meta content="ReviewHuntr.com is creating the best reviews on the internet." property="og:description"><meta content="https://reviewhuntr.com/reviews/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase-Review/" property="og:url"><meta content="2019-10-14T00:00:00+00:00" property="article:published_time"><meta content="https://reviewhuntr.com/about/" property="article:author"><meta content="https://reviewhuntr.com/assets/img/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase.jpg" property="og:image"><meta content="Bunk Neds" property="article:tag"><meta content="Bookcase" property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><meta name="twitter:title" content="DHP Studio Loft Bunk Bed Over Desk and Bookcase - Review"><meta name="twitter:url" content="https://reviewhuntr.com/reviews/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase-Review/"><meta name="twitter:description" content="ReviewHuntr.com is creating the best reviews on the internet."><meta name="twitter:image:src" content="https://reviewhuntr.com/assets/img/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase.jpg"><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta property="og:image" content="https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"><link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicon/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><meta name="theme-color" content="#263959"><meta name="msapplication-navbutton-color" content="#263959"><meta name="apple-mobile-web-app-status-bar-style" content="#263959"><link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/css/main.css"> <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5d90b2b1ddd24e0019459cbb&product=inline-share-buttons'></script></head><body><div class="wrapper"> <aside class="sidebar"> <header><div class="about"><div class="cover-author-image"> <a href="/"><img src="/assets/img/logo/500pxLogo.jpg" alt="ReviewHuntr"></a></div><p>The best reviews on the internet.</p></div> <nav class="nav"> <a class="nav-item" href="/reviews">Reviews</a> <a class="nav-item" href="https://discord.gg/YTd6pYa" target="_blank">Discord</a> <a class="nav-item" href="/about">About</a> </nav> </header> <footer><div class="copyright"><p>2019 © ReviewHuntr</p></div> </footer> </aside><div class="content-box clearfix"> <script> 
+var reviewHTML = '<div class="reviews">'+
+            '  <div id="suggested-reviews" class="suggested-reviews">'+
+            '    <h4>Suggested reviews for you</h4>'+
+            '    <ul class="suggested-reviews-list">'+
+            '      <li><a href="" class="suggested-reviews-1" id="suggested-reviews-1"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-2" id="suggested-reviews-2"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-3" id="suggested-reviews-3"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-4" id="suggested-reviews-4"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-5" id="suggested-reviews-5"></a></li>'+
+            '    </ul>'+
+            '  </div>'+
+            '</div>';
+
+    window.addEventListener('load', function() {
+      fetch(window.location.origin+"/api-reviews.json")
+      .then(res => res.json())
+      .then(out => {
+
+        let entry = document.getElementsByClassName("wrap-content")[0]
+        let reviews = document.createElement('div')
+        reviews.innerHTML = reviewHTML
+
+        let afterMe = entry.children[Math.ceil(entry.childElementCount / 2) - 1] 
+
+        entry.insertBefore(reviews, afterMe)
+
+        var posts = out.sort(() => .5 - Math.random()).slice(0,5)
+        let i
+        for (i=0; i < posts.length; i++) {
+          document.getElementById(`suggested-reviews-${i + 1}`).text = posts[i].title
+          document.getElementById(`suggested-reviews-${i + 1}`).href = posts[i].url
+        }
+    
+        let content = document.getElementById('suggested-reviews')
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+
+
+
+      })
+      .catch(error => console.error(error))
+    }, false);
+    </script><article class="article-page"><div class="page-content"><div class="page-cover-image"> <figure> <img class="page-image" src="/assets/img/posts/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase.jpg" alt="DHP+Studio+Loft+Bunk+Bed+Over+Desk+and+Bookcase+-+Review"></figure></div><div class="wrap-content"> <header class="header-page"><h1 class="page-title">DHP Studio Loft Bunk Bed Over Desk and Bookcase - Review</h1><span class="post-author">Lisa</span><div class="page-date"><span>2019, Oct 14    </span></div> </header><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><p>Living in small houses, apartments, or rooms is not out of the ordinary for anyone who exists in this dense and populous modern world. This notion holds true for urban areas, where saving space is quite a significant issue. It is crucial to the point of being a priority.</p><p>Why wouldn’t it be? If you have a small area to live in, the first thing that you would want to do is to save some space by buying less furniture. But then, you would be void of necessities such as a desk, or even a bed. To make sure that you could decorate your home with the required furniture and still not feel like you are living in a cramped space, you could turn to specially crafted space-saving furniture. Both space and pocket-friendly, this furniture is a big hit for those living in small spaces or those who simply want a modern looking piece of furniture in their vicinity.</p><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> is one such cost and space-saving option that doesn’t only stay light on your pocket but pulls off that feat while looking pretty as a picture. Made completely out of a metal frame, the bunk bed is built in a way that is both sturdy and stylish at the same time. It sports a striking design that features a desk on the left and a bookcase on the right, with a bunk bed going on top of them and completing the structure.</p><p>With a size that accommodates a twin mattress and provides ample room for the desk and bookcase underneath, the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> provides sufficient room for work and sleep at the same time. With that being said, even though the bunk bed combo is built as space-saving furniture, it promises to strike a perfect balance between utility and aesthetics.</p><p>With sturdy metal, strategic design, and beautiful finish, the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed</a></span> combo is built to be an example of craftsmanship and claims to hold weight up to 200lbs. It comes in three colors, namely black, silver, and white. It also offers a sturdily-built, fixed ladder design that allows its users to hop on and climb down the bed with comfort and safety. The bed section of the structure also has safety rails and slats, while the remainder of the structure is also filled with strategically placed rails that add to its safety as well as its overall look.</p><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> offers easy assembly and doesn’t require any foundation to stand. The whole structure weighs about 146lbs while sporting the dimensions of 41.5 x 77.5 x 74 inches. This design makes the structure almost as tall as its length and makes it a real example of vertical-space furniture.</p><p>When it comes to practical use, many users note that the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed</a></span> combo holds up to its promises. Users have pointed out that it looks good in real life, and makes for a great piece of multi-purpose furniture for rooms that are in dire need of space-saving. This feature makes it ideal for kids and teenagers, while also being quite beneficial for college students who live in small apartments or dorm rooms. With that, the bunk bed combo also appeals to those adults who live in smaller spaces or who want to decorate their homes with modern and space-saving vertical furniture.</p><p>Several users note that the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> is indeed easy to assemble. Users do not need an expert to install and fix their structure. From putting together the structure to finish the look with a mattress, users perceive the experience to be quite an easy task that could be handled by anyone.</p><p>Users have also noted that the structure’s material is quite sturdy and could hold weight according to its manufacturer’s claims. Since the ladder is fixed into the bed frame through screws and preset holes to fit them in, it also stays in place even as larger adults climb on or off the bed. The overall aesthetic of the structure is also praised by users, who state that the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed</a></span> was according to their expectations and made a good addition to their homes and rooms.</p><p>Two issues that get noted by some users as being problematic are the roughness of the ladder rungs and the restriction on putting the ladder on the side of the preset holes. According to a few users, the ladder rungs feel quite rough against their feet. Whereas, others complain about not being able to choose a side to fix the ladder. Since the holes to fix the screws are already made in the bed frame, users have to install the ladder on the preset side by default.</p><p>With that being said, other users feel pretty satisfied with the product. As for the ladder issue, some have gone as far as to fix it themselves by making holes in their preferred side of the structure to install the ladder.</p><h2 id="conclusion">Conclusion</h2><p>Overall, the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> earns quite a bit of praise from its users. It seems to be an excellent choice for those who want to save space while not compromising style and comfort.</p><p>With that, if you are one to be aggravated by not being able to choose a side for the ladder, then you should be mindful of that restriction and take measures to fix it accordingly. Other than that, the <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed</a></span> combo seems to be quite excellent in fulfilling users’ expectations.</p><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07K4424RZ?tag=reviewhuntr-20" target="_blank">DHP Studio Loft Bunk Bed Over Desk and Bookcase</a></span> is functional and beautiful. It is perfect for minimalists and those who like to keep things as simple as possible.</p><div class="page-footer"><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><div class="page-tag"><a href="https://reviewhuntr.com/reviews#Bunk+Neds" class="tag"># Bunk Neds</a><a href="https://reviewhuntr.com/reviews#Bookcase" class="tag"># Bookcase</a></div></div><div> ReviewHuntr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com.</div></div></div> </article></div></div><script>!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-121890486-4","auto"),ga("send","pageview")</script><script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "headline": "DHP Studio Loft Bunk Bed Over Desk and Bookcase - Review",
+      "description": "Living in small houses, apartments, or rooms is not out of the ordinary for anyone who exists in this dense and populous modern world. This notion holds true for urban areas, where saving space is quite a significant issue. It is crucial to the point of being a priority. Why wouldn’t it be? If you have a small area to live in, the first thing that you would want to do is to save some space by buying less furniture. But then, you would be void of necessities such as a desk, or even a bed. To make sure that...",
+      "image": ["https://reviewhuntr.com/assets/img/posts/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase.jpg"],
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://reviewhuntr.com/reviews/DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase-Review/"
+      },
+      "datePublished": "2019-10-14 00:00:00 +0000",
+      "dateModified": "2019-10-14 00:00:00 +0000",
+      "isAccessibleForFree": "True",
+      "isPartOf": {
+          "@type": ["CreativeWork", "Product", "Blog"],
+          "name": "DHP Studio Loft Bunk Bed Over Desk and Bookcase",
+          "productID": "asin:B07K4424RZ"
+      },
+      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "author": {
+          "@type": "Person",
+          "name": "Lisa",
+          "description": "",
+          "sameAs": "https://reviewhuntr.com/about",
+          "image": {
+              "@type": "ImageObject",
+              "url": ""
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "Lisa",
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      },
+      "publisher": {
+          "@type": "Organization",
+          "name": "ReviewHuntr",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet.",
+          "sameAs": "https://reviewhuntr.com",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"
+          },
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      }
+  }
+</script></body></html>
