@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Braun Series 9 Men's Electric Foil Shaver with Wet &amp; Dry Integrated Precision Trimmer &amp; Rechargeable and Cordless Razor - Review - ReviewHuntr.com - The best reviews on the internet.</title><meta content="ReviewHuntr.com - The best reviews on the internet." property="og:site_name"><meta content="Braun Series 9 Men's Electric Foil Shaver with Wet &amp; Dry Integrated Precision Trimmer &amp; Rechargeable and Cordless Razor - Review" property="og:title"><meta content="article" property="og:type"><meta content="ReviewHuntr.com is creating the best reviews on the internet." property="og:description"><meta content="https://reviewhuntr.com/reviews/Braun-Series-9-Men-Electric-Foil-Shaver-with-Wet-Dry-Integrated-Precision-Trimmer-Review/" property="og:url"><meta content="2019-10-14T00:00:00+00:00" property="article:published_time"><meta content="https://reviewhuntr.com/about/" property="article:author"><meta content="https://reviewhuntr.com/assets/img/Braun-Series-9-Men's-Electric-Foil-Shaver.jpg" property="og:image"><meta content="Electric Foil Shaver" property="article:tag"><meta content="Trimmer" property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><meta name="twitter:title" content="Braun Series 9 Men's Electric Foil Shaver with Wet &amp; Dry Integrated Precision Trimmer &amp; Rechargeable and Cordless Razor - Review"><meta name="twitter:url" content="https://reviewhuntr.com/reviews/Braun-Series-9-Men-Electric-Foil-Shaver-with-Wet-Dry-Integrated-Precision-Trimmer-Review/"><meta name="twitter:description" content="ReviewHuntr.com is creating the best reviews on the internet."><meta name="twitter:image:src" content="https://reviewhuntr.com/assets/img/Braun-Series-9-Men's-Electric-Foil-Shaver.jpg"><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta property="og:image" content="https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"><link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicon/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><meta name="theme-color" content="#263959"><meta name="msapplication-navbutton-color" content="#263959"><meta name="apple-mobile-web-app-status-bar-style" content="#263959"><link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/css/main.css"> <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5d90b2b1ddd24e0019459cbb&product=inline-share-buttons'></script></head><body><div class="wrapper"> <aside class="sidebar"> <header><div class="about"><div class="cover-author-image"> <a href="/"><img src="/assets/img/logo/500pxLogo.jpg" alt="ReviewHuntr"></a></div><p>The best reviews on the internet.</p></div> <nav class="nav"> <a class="nav-item" href="/reviews">Reviews</a> <a class="nav-item" href="https://discord.gg/YTd6pYa" target="_blank">Discord</a> <a class="nav-item" href="/about">About</a> </nav> </header> <footer><div class="copyright"><p>2019 © ReviewHuntr</p></div> </footer> </aside><div class="content-box clearfix"> <script> 
+var reviewHTML = '<div class="reviews">'+
+            '  <div id="suggested-reviews" class="suggested-reviews">'+
+            '    <h4>Suggested reviews for you</h4>'+
+            '    <ul class="suggested-reviews-list">'+
+            '      <li><a href="" class="suggested-reviews-1" id="suggested-reviews-1"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-2" id="suggested-reviews-2"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-3" id="suggested-reviews-3"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-4" id="suggested-reviews-4"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-5" id="suggested-reviews-5"></a></li>'+
+            '    </ul>'+
+            '  </div>'+
+            '</div>';
+
+    window.addEventListener('load', function() {
+      fetch(window.location.origin+"/api-reviews.json")
+      .then(res => res.json())
+      .then(out => {
+
+        let entry = document.getElementsByClassName("wrap-content")[0]
+        let reviews = document.createElement('div')
+        reviews.innerHTML = reviewHTML
+
+        let afterMe = entry.children[Math.ceil(entry.childElementCount / 2) - 1] 
+
+        entry.insertBefore(reviews, afterMe)
+
+        var posts = out.sort(() => .5 - Math.random()).slice(0,5)
+        let i
+        for (i=0; i < posts.length; i++) {
+          document.getElementById(`suggested-reviews-${i + 1}`).text = posts[i].title
+          document.getElementById(`suggested-reviews-${i + 1}`).href = posts[i].url
+        }
+    
+        let content = document.getElementById('suggested-reviews')
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+
+
+
+      })
+      .catch(error => console.error(error))
+    }, false);
+    </script><article class="article-page"><div class="page-content"><div class="page-cover-image"> <figure> <img class="page-image" src="/assets/img/posts/Braun-Series-9-Men's-Electric-Foil-Shaver.jpg" alt="Braun+Series+9+Men%27s+Electric+Foil+Shaver+with+Wet+%26+Dry+Integrated+Precision+Trimmer+%26+Rechargeable+and+Cordless+Razor+-+Review"></figure></div><div class="wrap-content"> <header class="header-page"><h1 class="page-title">Braun Series 9 Men's Electric Foil Shaver with Wet &amp; Dry Integrated Precision Trimmer &amp; Rechargeable and Cordless Razor - Review</h1><span class="post-author">Lisa</span><div class="page-date"><span>2019, Oct 14    </span></div> </header><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><p>It seems like every other shaver and razor manufacturer out there loves to brag about their new technological advancement and updated models, but disappointingly they come out no better than the old ones. Except for <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span>. A household staple name <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> is well known across the globe for staying on top of their game. <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> latest, the Series 9 Shaver models are one of the best you can invest in. <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> history of using long and sometimes complicated descriptions of their technologies are always up to par. Did they succeed this time?</p><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> is one of the most advanced electric shavers out there. This model is a foil-type shaver, providing close shaves and features an extra cutting element, coming out to a total of 4 foil shaving elements. These 4 shaving components are flexible, making sure you get a comfortable touch and a smooth shave. Due to their flexibility, they can mould to any angle and face shape while shaving. The <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> also comes with a pivoting head that moves in no less than 10 directions. This means no more struggling with trouble spots and facial cuts in the mornings while you’re in a hurry to get ready. Now, it is true that sometimes you need a steady, stable head and not a rotating one to deliver that optimal shave. <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> also incorporates a lock feature for the head in order to keep it in one place, in an angle you think fits. The motor the 9296cc model is equipped with uses Synchronized technology to create “40,000 cross-cutting actions per minute”. Compare this to the previous Series 7 models, which only provided 10,000 cuts per minute. This performance level ensures you get super-fast shaving in no time. As a bonus, users report minimal sound noise while using the <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> electric shaver. However, the biggest touted feature of this electric razor is its wet/dry shave technology. You can either use this for fast, dry shaving or you can use gel, soap, water, or shaving foam. You can even use this in the shower, as the shaver is 100% waterproof. The body is made with both premium plastic and metal. The handle where you grab the shaver is made out of rubber, which makes it easier to not have it slip out of your hands while you’re using it in the shower, for example.</p><p>Perhaps the best feature of this shaver is the base that it comes with. This is the only electric razor that is equipped with lubricant for the blades and alcohol-based cleaning fluid as well as serving as the charging station. The base automatically takes care of cleaning, charging, lubricating and drying of the shaver for your next use. The shaver comes with Lithium-ion rechargeable batteries. Buyers report their shaver lasts 50 minutes on average when used cordless after being charged for an hour. A full hour is what it takes for a full cycle of recharge time. There is also the option of quick charging, giving you a 5-minute charging option for when you need it urgently but are short on time. Amazon reviewers say this feature is good enough for a full quick shave. An LED display is present on the shaver, showing battery remaining, indication of recharge, a travel lock feature, cleaning indication (eco, normal or deep clean) and so on. A slide-up trimmer has been integrated into this model for those precise shaving of sideburns or moustaches. The travel lock feature is for when you press the power button for 3 seconds in case of travel, preventing the head from automatically turning on. Lastly, this purchase comes with a travel case for your needs. A multi-volt charging adapter ensures you don’t need to worry about fitting into electrical outlets and such.</p><p>If we talk about how the performance fared with buyers, customers loved that the dry shave option gave as good a shave as a wet one, with no skin irritations. The shaver is reported to give a fine, close-cut without leaving your face looking red, with most users saying they ended up ditching razor blades and rotary shavers for life after this purchase. One user described it as “the Rolls Royce of razors, the ultimate electric shaver”. The cleaning system is unanimously agreed to not be a marketing gimmick but work as intended, a quick wash underwater and you’re good to go. Manual cleaning is simple, popping off the foil head and brushing away excess hair. It is further described as not feeling like cheap plastic and feels the right amount of heavy in the hand. It even works out for people who are not fond of shaving or find themselves chronically short on time in the mornings, as many customers echo the sentiment that the <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver with Wet &amp; Dry Integrated Precision Trimmer &amp; Rechargeable and Cordless Razor</a></span> does the job quickly and efficiently.</p><h2 id="conclusion">Conclusion</h2><p>Negative reviews were few and far between, still gaining an average rating of 3/5 stars. These reviewers were more partial to the Series 7, or even Series 5, and did not click well with the <span><a class="product-link" href="https://www.amazon.com/dp/B07F7XYMNN?tag=reviewhuntr-20" target="_blank">Braun Series 9 Men’s Electric Foil Shaver</a></span> . Head size was reported to be a bit larger than average, making it difficult for some people to get a good, even shaving performance. Cleaning refills need to be brought regularly for the cleaning feature. The overwhelming consensus seems to be that with this device, even though the upfront cost seems to be high, you get what you paid for and is worth the price and investment.</p><div class="page-footer"><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><div class="page-tag"><a href="https://reviewhuntr.com/reviews#Electric+Foil+Shaver" class="tag"># Electric Foil Shaver</a><a href="https://reviewhuntr.com/reviews#Trimmer" class="tag"># Trimmer</a></div></div><div> ReviewHuntr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com.</div></div></div> </article></div></div><script>!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-121890486-4","auto"),ga("send","pageview")</script><script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Braun Series 9 Men's Electric Foil Shaver with Wet & Dry Integrated Precision Trimmer & Rechargeable and Cordless Razor - Review",
+      "description": "It seems like every other shaver and razor manufacturer out there loves to brag about their new technological advancement and updated models, but disappointingly they come out no better than the old ones. Except for Braun Series 9 Men’s Electric Foil Shaver. A household staple name Braun Series 9 Men’s Electric Foil Shaver is well known across the globe for staying on top of their game. Braun Series 9 Men’s Electric Foil Shaver latest, the Series 9 Shaver models are one of the best you can invest in. Braun Series 9 Men’s Electric Foil Shaver history of using long and...",
+      "image": ["https://reviewhuntr.com/assets/img/posts/Braun-Series-9-Men's-Electric-Foil-Shaver.jpg"],
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://reviewhuntr.com/reviews/Braun-Series-9-Men-Electric-Foil-Shaver-with-Wet-Dry-Integrated-Precision-Trimmer-Review/"
+      },
+      "datePublished": "2019-10-14 00:00:00 +0000",
+      "dateModified": "2019-10-14 00:00:00 +0000",
+      "isAccessibleForFree": "True",
+      "isPartOf": {
+          "@type": ["CreativeWork", "Product", "Blog"],
+          "name": "Braun Series 9 Men's Electric Foil Shaver with Wet & Dry Integrated Precision Trimmer & Rechargeable and Cordless Razor",
+          "productID": "asin:B07F7XYMNN"
+      },
+      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "author": {
+          "@type": "Person",
+          "name": "Lisa",
+          "description": "",
+          "sameAs": "https://reviewhuntr.com/about",
+          "image": {
+              "@type": "ImageObject",
+              "url": ""
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "Lisa",
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      },
+      "publisher": {
+          "@type": "Organization",
+          "name": "ReviewHuntr",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet.",
+          "sameAs": "https://reviewhuntr.com",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"
+          },
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      }
+  }
+</script></body></html>
