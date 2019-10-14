@@ -185,3 +185,13 @@
   short-name: Braun Series 9 Men's Electric Foil Shaver
   imgs: [ "Braun-Series-9-Mens-Electric-Foil-Shaver.jpg" ]
   asin: B07F7XYMNN
+- id: 38
+  name: Segway Ninebot ES2 Folding Electric Kick Scooter
+  short-name: Segway Ninebot ES2 Electric Scooter
+  imgs: [ "Segway-Ninebot-ES2-Folding-Electric-Kick-Scooter.jpg" ]
+  asin: B07H8T9K9J
+- id: 39
+  name: HP Pavilion 24-Inch All-in-One Computer
+  short-name: HP 24-Inch All-in-One Computer
+  imgs: [ "HP-Pavilion-24-Inch-All-in-One-Computer.jpg" ]
+  asin: B07SGH132Y
