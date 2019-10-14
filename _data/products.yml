@@ -190,3 +190,8 @@
   short-name: Segway Ninebot ES2 Electric Scooter
   imgs: [ "Segway-Ninebot-ES2-Folding-Electric-Kick-Scooter.jpg" ]
   asin: B07H8T9K9J
+- id: 39
+  name: HP Pavilion 24-Inch All-in-One Computer
+  short-name: HP 24-Inch All-in-One Computer
+  imgs: [ "HP-Pavilion-24-Inch-All-in-One-Computer.jpg" ]
+  asin: B07SGH132Y
