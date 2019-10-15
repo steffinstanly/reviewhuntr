@@ -1,7 +1,7 @@
 ---
 layout: post
 author: 11
-product: 43
+product: 44
 tags: [ Bose SoundTouch, Wireless Speakers]
 ---
 
