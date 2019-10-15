@@ -2,7 +2,7 @@
 layout: post
 author: 11
 product: 42
-tags: [ Alienware, Laptop ]
+tags: [Alienware, Laptop]
 ---
 
 {%- include vars -%}
