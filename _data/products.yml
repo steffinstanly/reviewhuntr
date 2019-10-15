@@ -210,3 +210,8 @@
   short-name: Alienware M15 Gaming Laptop
   imgs: [ "Alienware-M15-Gaming-Laptop.jpg" ]
   asin: B07MP4LK82
+- id: 43
+  name: Pimax 5K Plus Virtual Reality Headset
+  short-name: Pimax 5k plus VR Headset
+  imgs: [ "Pimax-Virtual-Reality-Headset.jpg" ]
+  asin: B07JZL5QK3
