@@ -240,3 +240,8 @@
   short-name: Garmin Forerunner GPS Running Watch
   imgs: [ "Garmin-Forerunner-GPS-Running-Watch.jpg" ]
   asin: B078H244WN
+- id: 49
+  name: Zivix Jamstik+
+  short-name: Jamstik+
+  imgs: [ "Zivix-Jamstik.jpg" ]
+  asin: B0149YRRXA
