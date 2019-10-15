@@ -220,3 +220,8 @@
   short-name: Bose SoundTouch 30 Speakers
   imgs: [ "Bose-SoundTouch-Wireless-Speakers.jpg" ]
   asin: B011IKGT46
+- id: 45
+  name: Lenovo Flex 14 2-in-1 Convertible Laptop
+  short-name: Lenovo Flex Convertible Laptop
+  imgs: [ "Lenovo-Flex-Convertible-Laptop.jpg" ]
+  asin: B07PB5M8DS
