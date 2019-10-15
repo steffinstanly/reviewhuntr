@@ -1,7 +1,7 @@
 ---
 layout: post
 author: 11
-product: 41
+product: 42
 tags: [ Alienware, Laptop ]
 ---
 
