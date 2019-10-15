@@ -215,3 +215,8 @@
   short-name: Pimax 5k plus VR Headset
   imgs: [ "Pimax-Virtual-Reality-Headset.jpg" ]
   asin: B07JZL5QK3
+- id: 44
+  name: Bose SoundTouch 30 Wireless Speakers
+  short-name: Bose SoundTouch 30 Speakers
+  imgs: [ "Bose-SoundTouch-Wireless-Speakers.jpg" ]
+  asin: B011IKGT46
