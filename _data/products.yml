@@ -230,3 +230,18 @@
   short-name: P.MAI Premium Leather Laptop Bag
   imgs: [ "P.MAI-Premium-Leather-Backpack.jpg" ]
   asin: B01DPNMCGI
+- id: 47
+  name: Tufts and Needle Queen Mattress
+  short-name: Tufts and Needle 
+  imgs: [ "Tufts-and-Needle-Queen-Mattress.jpg" ]
+  asin: B00QBZ265U
+- id: 48
+  name: Garmin Forerunner 645 Music and GPS Running Watch
+  short-name: Garmin Forerunner GPS Running Watch
+  imgs: [ "Garmin-Forerunner-GPS-Running-Watch.jpg" ]
+  asin: B078H244WN
+- id: 49
+  name: Zivix Jamstik+
+  short-name: Jamstik+
+  imgs: [ "Zivix-Jamstik.jpg" ]
+  asin: B0149YRRXA
