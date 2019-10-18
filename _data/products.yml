@@ -245,3 +245,6 @@
   short-name: Jamstik+
   imgs: [ "Zivix-Jamstik.jpg" ]
   asin: B0149YRRXA
+- id: 50
+  name: The new SoftWeaponry Baby Taser
+  imgs: [ "baby-taser.jpg" ]
