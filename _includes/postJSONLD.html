@@ -2,7 +2,7 @@
 <script type="application/ld+json">
   {
       "@context": "http://schema.org",
-      "@type": "BlogPosting",
+      "@type": "Review",
       "headline": "{{ product-title }}",
       "description": "{{ page.content | strip_html | truncatewords: 100 }}",
       "image": [
@@ -22,20 +22,36 @@
       "datePublished": "{{page.date}}",
       "dateModified": "{%- if page.modified -%}{{page.modified}}{%- else -%}{{page.date}}{%- endif -%}",
       "isAccessibleForFree": "True",
-      "isPartOf": {
-          "@type": ["CreativeWork", "Product", "Blog"],
+      "itemReviewed": {
+          "@type": ["Product"],
           "name": "{{ product-name }}",
           "productID": "asin:{{ product-asin }}",
           "sku": "asin:{{ product-asin }}",
-          "gtin": "",
-          "brand": "{{ product-brand }}",
-          "description": "{{ product-name }}",
           "review": {
             "itemReviewed": "{{ product-name }}",
+            "author": {
+              "@type": "Person",
+              "name": "{%- include person.html id=page.author return='name' -%}"
+            },
             "reviewAspect": "Product opinion reviews",
             "reviewBody": "{{ page.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip }}",
-            "reviewRating": ""
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            }
           },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "ratingCount": "1"
+          },
+          "offers": "",
+          "brand": {
+            "@type": "Thing",
+            "name": "{{ product-brand }}"
+          },
+          "description": "{{ product-name }}",
           "image": [
           {%- if page.ogimagenull -%}
           {%- elsif page.ogimage -%}
