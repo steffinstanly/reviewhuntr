@@ -25,7 +25,27 @@
       "isPartOf": {
           "@type": ["CreativeWork", "Product", "Blog"],
           "name": "{{ product-name }}",
-          "productID": "asin:{{ product-asin }}"
+          "productID": "asin:{{ product-asin }}",
+          "sku": "asin:{{ product-asin }}",
+          "gtin": "",
+          "brand": "{{ product-brand }}",
+          "description": "{{ product-name }}",
+          "review": {
+            "itemReviewed": "{{ product-name }}",
+            "reviewAspect": "Product opinion reviews",
+            "reviewBody": "{{ page.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip }}",
+            "reviewRating": ""
+          },
+          "image": [
+          {%- if page.ogimagenull -%}
+          {%- elsif page.ogimage -%}
+              "{{ site.url }}/assets/img/posts/{{page.ogimage}}"
+          {%- elsif header-img -%}
+              "{{ site.url }}/assets/img/posts/{{header-img}}"
+          {%- else -%}
+              "{{ site.url }}/assets/img/{{ page.author-img }}"
+          {%- endif -%}
+      ]
       },
       "license": "http://creativecommons.org/licenses/by-sa/4.0/",
       "author": {

@@ -4,106 +4,127 @@
   short-name: Audeze LCD-3
   imgs: [ "udeze-lcd-3-over.jpg" ]
   asin: B00O12MH1S
+  brand: Audeze
 - id: 2
   name: Yamaha P45 - Digital Piano
   short-name: Yamaha P-45B
   imgs: [ "yamaha-p45-88-key.jpg" ]
   asin: B00UJ9LNDK
+  brand: Yamaha
 - id: 3
   name: Audeze Mobius Premium 3D Gaming Headset with Surround Sound
   short-name: Audeze Mobius headset
   imgs: [ "audeze-mobius-premium-3d.jpg" ]
   asin: B07BDQZ52Z
+  brand: Audeze
 - id: 3.1
   name: Nuraphone - Wireless Bluetooth Over Ear Headphones With Earbuds
   short-name: Nuraphone Wireless Headphones
   imgs: [ "nuraphone-wireless-over-the.jpg" ]
   asin: B076X4KH11
+  brand: Nuraphone
 - id: 4
   name: Ruputas Wowstick 1F+ Electric Screwdriver and Repair Kit
   short-name: Ruputas Wowstick 1F+
   imgs: [ "ruputas-wowstick-1f-electric.jpg" ]
   asin: B076X4KH11
+  brand: Ruputas
 - id: 5
   name: iFixit Pro Tech Toolkit - Electronics, Smartphone, Computer & Tablet Repair Kit
   short-name: iFixit Pro Tech Toolkit
   imgs: [ ]
   asin: B01GF0KV6G
+  brand: iFixit
 - id: 6
   name: Bang & Olufsen B&O Play H8i
   short-name: B&O Beoplay H8i
   imgs: [ "bang-and-olufsen-play.jpg" ]
   asin: B078HPHLPR
+  brand: Bang & Olufsen
 - id: 7
   name: Neato Robotics D7 Connected Laser Guided Smart Robot Vacuum
   short-name: Neato Robotics D7
   imgs: [ "neato-robotics-d7-robot.jpg" ]
   asin: B078MPFN55
+  brand: Neato Robotics
 - id: 8
   name: Apple iMac 27-inch Retina 5K
   short-name: iMac Retina 5K
   imgs: [ "apple-imac-27-inch.jpg" ]
   asin: B07Q1NBCVB
+  brand: Apple
 - id: 9
   name: Audeze LCD-4 Over Ear Headphones
   short-name: Audeze LCD-4
   imgs: [ "audeze-lcd-4-over.jpg" ]
   asin: B01DTQ6AMS
+  brand: Audeze
 - id: 10
   name: Audeze LCD-3 Over Ear Headphones Fazor Elements MAPLE WOOD VERSION
   short-name: Audeze LCD-3
   imgs: [ "audeze-lcd-3-wood.jpg" ]
   asin: B07D9WWKTS
+  brand: Audeze
 - id: 11
   name: HIFIMAN HE1000 V2 Over Ear Headphones
   short-name: HIFIMAN HE1000 V2
   imgs: [ "hifiman-he1000-v2-over.jpg" ]
   asin: B01I50644C
+  brand: HIFIMAN
 - id: 12
   name: iRobot Roomba 980 Robot Vacuum
   short-name: iRobot Roomba 980
   imgs: [ "irobot-roomba-980-robot.jpg" ]
   asin: B013E9L4ZS
+  brand: iRobot
 - id: 13
   name: Acer Predator Helios 300 Gaming Laptop
   short-name: Acer Preditor helios 300
   imgs: [ "acer-predator-helios-300.jpg" ]
   asin: B07CTHLX8C
+  brand: Acer
 - id: 14
   name: 2019 HP Premium HD Laptop
   short-name: 2019 HP Premium HD Laptop
   imgs: [ "hp-premium-hd-laptop.jpg" ]
   asin: B07QKWTZ4B
+  brand: HP
 - id: 15
   name: Canon EOS Rebel T6 Digital SLR Camera Kit with EF-S 18-55mm f/3.5-5.6 IS II Lens (Black)
   short-name: Canon EOS Rebel T6
   imgs: [ "canon-eos-rebel-t6.jpg" ]
   asin: B01CO2JPYS
+  brand: Canon
 - id: 16
   name: Arsvita Car Audio Bluetooth Cassette Receiver
   short-name: Arsvita Car Audio Bluetooth Cassette Receiver
   imgs: [ "arsvita-car-audio-bluetooth.jpg" ]
   asin: B07QSW6KNY
+  brand: Arsvita
 - id: 17
   name: MSI GeForce GTX 1080
   short-name: MSI Geforce GTX 1080
   imgs: [ "msi-geforce-gtx-1080.jpg" ]
   asin: B01HHBQBLG
+  brand: MSI
 - id: 18
   name: Concept2 Model D Indoor Rowing Machine
   short-name: Concept2 Rowing Machine
   imgs: [ "concept2-model-d-indoor.jpg" ]
   asin: B00NH9WEUA
+  brand: Concept2
 - id: 19
   name: CyberpowerPC Gamer Xtreme VR Gaming PC
   short-name: CyberpowerPC Gamer Xtreme VR Gaming PC
   imgs: [ "cyberpowerpc-gamer-xtreme-vr.jpg" ]
   asin: B07PKXQBHN
+  brand: CyberpowerPC
 - id: 20
   name: Doona Infant Car Seat & Latch Base
   short-name: Doona Infant car seat
   imgs: [ "doona-infant-car-seat.jpg" ]
   asin: B07HML1BT5
+  brand: 
 - id: 21
   name: NETGEAR Nighthawk Smart WIFI Router
   short-name: NETGEAR Nighthawk WIFI Router
@@ -119,132 +140,160 @@
   short-name: Oculus Rift S
   imgs: [ "oculus-rift-s-pc.jpg" ]
   asin: B07PTMKYS7
+  brand: Oculus
 - id: 24
   name: SimpliSafe 12- Piece Home Security System with HD Camera and Smoke Detector
   short-name: SimpliSafe Home Security System
   imgs: [ "simplisafe-12-piece-home.jpg" ]
   asin: B07C4WT5LQ
+  brand: SimpliSafe
 - id: 25
   name: MDMA Therapy Home Kit For Cat Depression
   short-name: ""
   imgs: [ "mdma-cat-depression-therapy.jpg" ]
+  brand: MDMA
 - id: 26
   name: Destroy the Amazon rainforest for charity with Amazonian wood clothing
   short-name: ""
   imgs: [ "amazon-wood-clothing-review.jpg" ]
+  brand: rainforest
 - id: 27
   name: Audeze LCD-X Over Ear Open Back Headphone with New Suspension Headband Creator Package – no Travel case
   short-name: Audeze LCD-X
   imgs: [ "audeze-lcd-x-over.jpg" ]
   asin: B0765KJ5CB
+  brand: Audeze
 - id: 28
   name: DELONGHI ESAM3300 Super Automatic Espresso/Coffee Machine
   short-name: DELONGHI ESAM3300
   imgs: [ "elonghi-ESAM3300-super-automatic.jpg" ]
   asin: B000N2YKQ0
+  brand: DELONGHI
 - id: 29
   name: GoWISE USA 8-Quart 8-in-1 Electric Pressure Cooker/Slow Cooker
   short-name: GoWISE 8-in-1 Cooker
   imgs: [ "gowise-usa-8-quart.jpg" ]
   asin: B00GTU2UQM
+  brand: GoWISE
 - id: 30
   name: The New Darkphone by DarkWeb
   short-name: DarkWeb Darkphone
   imgs: [ "the-new-darkweb-darkphone.jpg"]
+  brand: Darkweb
 - id: 31
   name: V-MODA XFBT2-MBLACK Crossfade 2 Wireless Over-Ear Headphones
   short-name: V-MODA Headphones
   imgs: [ "vmoda-crossfade-2-wireless.jpg" ]
+  brand: V-MODA
 - id: 32
   name: Bose A20 Aviation Headset with Bluetooth Dual Plug Cable, Black
   short-name: Bose A20 Aviation Headset
   imgs: [ "Bose-A20-Aviation-Headset-with-Bluetooth.jpg" ]
   asin: B010FTYIUS
+  brand: Bose
 - id: 33
   name: Dyson Supersonic Hair Dryer
   short-name: Dyson Supersonic Hair Dryer
   imgs: [ "Dyson-Supersonic-Hair-Dryer-Review.jpg" ]
   asin: B01F6XZ6BS
+  brand: Dyson
 - id: 34
   name: Parrot PF728000 Anafi Drone, Foldable Quadcopter Drone with 4K HDR Camera
   short-name: Parrot PF728000 Anafi Drone
   imgs: [ "Parrot-PF728000-Anafi-Drone.jpg" ]
   asin: B07D5R2JKL
+  brand: Parrot
 - id: 35
   name: Nintendo Switch – Neon Red and Neon Blue Joy-Con - HAC 001
   short-name: Nintendo Switch
   imgs: [ "Nintendo-Switch–Neon-Red-and-Neon-Blue.jpg" ]
   asin: B01MUAGZ49
+  brand: Nintendo
 - id: 36
   name: XtremepowerUS Mini Pocket Motorcycle Gasoline Bike Motorcycle
   short-name: XtremepowerUS Mini Pocket Motorcycle
   imgs: [ "XtremepowerUS-Mini-Pocket-Motorcycle-Powered-by-Gasoline.jpg" ]
   asin: B075B1BM7M
+  brand: XtremepowerUS
 - id: 37
   name: Braun Series 9 Men's Electric Foil Shaver with Wet & Dry Integrated Precision Trimmer & Rechargeable and Cordless Razor
   short-name: Braun Series 9 Men's Electric Foil Shaver
   imgs: [ "Braun-Series-9-Mens-Electric-Foil-Shaver.jpg" ]
   asin: B07F7XYMNN
+  brand: Braun
 - id: 38
   name: Segway Ninebot ES2 Folding Electric Kick Scooter
   short-name: Segway Ninebot ES2 Electric Scooter
   imgs: [ "Segway-Ninebot-ES2-Folding-Electric-Kick-Scooter.jpg" ]
   asin: B07H8T9K9J
+  brand: Segway
 - id: 39
   name: HP Pavilion 24-Inch All-in-One Computer
   short-name: HP 24-Inch All-in-One Computer
   imgs: [ "HP-Pavilion-24-Inch-All-in-One-Computer.jpg" ]
   asin: B07SGH132Y
+  brand: HP
 - id: 40
   name: DHP Studio Loft Bunk Bed Over Desk and Bookcase
   short-name: DHP Studio Loft Bunk Bed
   imgs: [ "DHP-Studio-Loft-Bunk-Bed-Over-Desk-and-Bookcase.jpg" ]
   asin: B07K4424RZ
+  brand: DHP
 - id: 41
   name: HP Pavilion 590 Desktop Computer
   short-name: HP 590 Desktop Computer
   imgs: [ "HP-Pavilion-Desktop-Computer.jpg" ]
   asin: B07MDYZW37
+  brand: HP
 - id: 42
   name: Alienware M15 Thin and Light 15 Gaming Laptop
   short-name: Alienware M15 Gaming Laptop
   imgs: [ "Alienware-M15-Gaming-Laptop.jpg" ]
   asin: B07MP4LK82
+  brand: Alienware
 - id: 43
   name: Pimax 5K Plus Virtual Reality Headset
   short-name: Pimax 5k plus VR Headset
   imgs: [ "Pimax-Virtual-Reality-Headset.jpg" ]
   asin: B07JZL5QK3
+  brand: Pimax
 - id: 44
   name: Bose SoundTouch 30 Wireless Speakers
   short-name: Bose SoundTouch 30 Speakers
   imgs: [ "Bose-SoundTouch-Wireless-Speakers.jpg" ]
   asin: B011IKGT46
+  brand: Bose
 - id: 45
   name: Lenovo Flex 14 2-in-1 Convertible Laptop
   short-name: Lenovo Flex Convertible Laptop
   imgs: [ "Lenovo-Flex-Convertible-Laptop.jpg" ]
   asin: B07PB5M8DS
+  brand: Lenovo
 - id: 46
   name: P.MAI Premium Leather Laptop Backpack with Wristlet
   short-name: P.MAI Premium Leather Laptop Bag
   imgs: [ "P.MAI-Premium-Leather-Backpack.jpg" ]
   asin: B01DPNMCGI
+  brand: P.MAI
 - id: 47
   name: Tufts and Needle Queen Mattress
   short-name: Tufts and Needle 
   imgs: [ "Tufts-and-Needle-Queen-Mattress.jpg" ]
   asin: B00QBZ265U
+  brand: Tufts
 - id: 48
   name: Garmin Forerunner 645 Music and GPS Running Watch
   short-name: Garmin Forerunner GPS Running Watch
   imgs: [ "Garmin-Forerunner-GPS-Running-Watch.jpg" ]
   asin: B078H244WN
+  brand: Garmin
 - id: 49
   name: Zivix Jamstik+
   short-name: Jamstik+
   imgs: [ "Zivix-Jamstik.jpg" ]
   asin: B0149YRRXA
+  brand: Zivix
 - id: 50
   name: The new SoftWeaponry Baby Taser
   imgs: [ "baby-taser.jpg" ]
+  brand: SoftWeaponry

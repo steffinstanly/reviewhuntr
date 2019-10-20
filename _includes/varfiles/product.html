@@ -14,6 +14,13 @@
   {%- endcapture -%}
 {%- endif -%}
 
+<!-- product brand -->
+{%- if product.brand -%}
+  {%- capture product-brand -%}
+    {{ product.brand }}
+  {%- endcapture -%}
+{%- endif -%}
+
 <!-- Amazon url -->
 {%- if product.asin -%}
   {%- capture amazon-url -%}
