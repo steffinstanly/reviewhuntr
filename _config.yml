@@ -61,4 +61,4 @@ plugins:
   - jemoji
   - octopress-minify-html
 
-exclude: ["node_modules", "vendor", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["node_modules", ".bundle", ".sass-cache", "vendor", "gulpfile.js", "package.json", "yarn.lock"]
