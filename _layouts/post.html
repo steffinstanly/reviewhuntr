@@ -49,3 +49,22 @@ layout: main
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
+
+<div class="post" style="display: none">
+  {%- include varfiles/product.html id=page.product -%}
+  {%- if header-img -%}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/posts/" | prepend: site.baseurl | append : header-img }})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {%- else -%}
+  {%- endif -%}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{page.url | prepend: site.baseurl}}">{{product-name | escape}} - Review</a></h2>
+    <p>{{ page.content | strip_html | truncatewords: 30 }}</p>
+    {%- if site.data.people[page.author].author-url -%}
+      <a target="_blank" href="{%- include person.html id=page.author return='author-url' -%}"><span class="post-author">{%- include person.html id=page.author return='name' -%}</span></a> —
+    {%- else -%}
+      <span class="post-author">{%- include person.html id=page.author return='name' -%} —</span>
+    {%- endif -%}
+    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span> -->
+    <span class="post-words">{%- capture words -%}{{ page.content | number_of_words }}{%- endcapture -%}{%- unless words contains "-" -%}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{%- endunless -%}</span>
+  </div>
+</div>
