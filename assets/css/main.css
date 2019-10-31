@@ -1524,6 +1524,9 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
+  .page-image {
+    padding: 0px 50px !important;
+  }
   .contact-title, .copyright {
     display: none;
   }

@@ -51,13 +51,17 @@
     }
 }
 
-  .content-box {
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-  }
+.content-box {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.page-image {
+  padding: 0px 50px !important
+}
 
 .contact-title, .copyright {
   display: none;
@@ -70,6 +74,7 @@
   .content-box {
     padding: 10px;
   }
+
   .post {
     width: 98%;
     max-width: 100%;
