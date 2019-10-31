@@ -53,7 +53,7 @@ layout: main
 <div class="post" style="display: none">
   {%- include varfiles/product.html id=page.product -%}
   {%- if header-img -%}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/posts/" | prepend: site.baseurl | append : header-img }})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/posts/" | prepend: site.baseurl | append : header-img }})" href="{{page.url | prepend: site.baseurl}}"></a>
   {%- else -%}
   {%- endif -%}
   <div class="post-content">

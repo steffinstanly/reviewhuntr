@@ -59,6 +59,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jemoji
+  - jekyll-include-cache
   - octopress-minify-html
 
 exclude: ["node_modules", ".bundle", ".sass-cache", "vendor", "gulpfile.js", "package.json", "yarn.lock"]
