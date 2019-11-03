@@ -307,6 +307,6 @@
   brand: Nootrusha
 - id: 53
   name: EVGA GeForce RTX 2080
-  short-name: EVGA
+  short-name: GeForce RTX 2080
   imgs: [ "EVGA-GeForce.jpg" ]
   asin: B07N889XT8
