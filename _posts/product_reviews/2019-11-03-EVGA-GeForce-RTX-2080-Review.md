@@ -2,7 +2,7 @@
 layout: post
 author: 7
 product: 53
-tags: [ EVGA GeForce ]
+tags: [ "EVGA GeForce" ]
 ---
 
 {%- include vars -%}
