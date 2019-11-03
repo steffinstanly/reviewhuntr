@@ -305,3 +305,8 @@
   name: Facebook Voting Machines
   imgs: [ "facebook-voting-machines.jpg" ]
   brand: Nootrusha
+- id: 53
+  name: EVGA GeForce RTX 2080
+  short-name: GeForce RTX 2080
+  imgs: [ "EVGA-GeForce.jpg" ]
+  asin: B07N889XT8
