@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>EVGA GeForce RTX 2080 - Review - ReviewHuntr.com - The best reviews on the internet.</title><meta content="ReviewHuntr.com - The best reviews on the internet." property="og:site_name"><meta content="EVGA GeForce RTX 2080 - Review" property="og:title"><meta content="article" property="og:type"><meta content="ReviewHuntr.com is creating the best reviews on the internet." property="og:description"><meta content="https://reviewhuntr.com/reviews/EVGA-GeForce-RTX-2080-Review/" property="og:url"><meta content="2019-11-03T00:00:00+00:00" property="article:published_time"><meta content="https://reviewhuntr.com/about/" property="article:author"><meta content="https://reviewhuntr.com/assets/img/EVGA-GeForce.jpg" property="og:image"><meta content="EVGA GeForce" property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><meta name="twitter:title" content="EVGA GeForce RTX 2080 - Review"><meta name="twitter:url" content="https://reviewhuntr.com/reviews/EVGA-GeForce-RTX-2080-Review/"><meta name="twitter:description" content="ReviewHuntr.com is creating the best reviews on the internet."><meta name="twitter:image:src" content="https://reviewhuntr.com/assets/img/EVGA-GeForce.jpg"><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta property="og:image" content="https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"><link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicon/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><meta name="theme-color" content="#263959"><meta name="msapplication-navbutton-color" content="#263959"><meta name="apple-mobile-web-app-status-bar-style" content="#263959"><link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="/assets/css/main.css"> <script src='https://platform-api.sharethis.com/js/sharethis.js#property=5d90b2b1ddd24e0019459cbb&product=inline-share-buttons'></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script src="/assets/js/infinite.js"></script></head><body><div class="wrapper"> <aside class="sidebar"> <header><div class="about"><div class="cover-author-image"> <a href="/"><img src="/assets/img/logo/500pxLogo.jpg" alt="ReviewHuntr"></a></div><p>The best reviews on the internet.</p></div> <nav class="nav"> <a class="nav-item" href="/reviews">Reviews</a> <a class="nav-item" href="https://discord.gg/YTd6pYa" target="_blank">Discord</a> <a class="nav-item" href="/about">About</a> </nav> </header> <footer><div class="copyright"><p>2019 © ReviewHuntr</p></div> </footer> </aside><div class="content-box clearfix"> <script> 
+var reviewHTML = '<div class="reviews">'+
+            '  <div id="suggested-reviews" class="suggested-reviews">'+
+            '    <h4>Suggested reviews for you</h4>'+
+            '    <ul class="suggested-reviews-list">'+
+            '      <li><a href="" class="suggested-reviews-1" id="suggested-reviews-1"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-2" id="suggested-reviews-2"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-3" id="suggested-reviews-3"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-4" id="suggested-reviews-4"></a></li>'+
+            '      <li><a href="" class="suggested-reviews-5" id="suggested-reviews-5"></a></li>'+
+            '    </ul>'+
+            '  </div>'+
+            '</div>';
+
+    window.addEventListener('load', function() {
+      fetch(window.location.origin+"/api-reviews.json")
+      .then(res => res.json())
+      .then(out => {
+
+        let entry = document.getElementsByClassName("wrap-content")[0]
+        let reviews = document.createElement('div')
+        reviews.innerHTML = reviewHTML
+
+        let afterMe = entry.children[Math.ceil(entry.childElementCount / 2) - 1] 
+
+        entry.insertBefore(reviews, afterMe)
+
+        var posts = out.sort(() => .5 - Math.random()).slice(0,5)
+        let i
+        for (i=0; i < posts.length; i++) {
+          document.getElementById(`suggested-reviews-${i + 1}`).text = posts[i].title
+          document.getElementById(`suggested-reviews-${i + 1}`).href = posts[i].url
+        }
+    
+        let content = document.getElementById('suggested-reviews')
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+
+
+
+      })
+      .catch(error => console.error(error))
+    }, false);
+    </script><article class="article-page"><div class="page-content"><div class="page-cover-image"> <figure> <img class="page-image" src="/assets/img/posts/EVGA-GeForce.jpg" alt="EVGA+GeForce+RTX+2080+-+Review"></figure></div><div class="wrap-content"> <header class="header-page"><h1 class="page-title">EVGA GeForce RTX 2080 - Review</h1><span class="post-author">Hamza Tariq</span><div class="page-date"><span>2019, Nov 03    </span></div> </header><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> is a top of the line graphics card, offering robust performance for gamers and content creators alike. It is one of the few graphics cards on the market that can truly handle the demands of nearly any workload. Combined with AI-powered Ray-Tracing technology, it has unmatched performance. This <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">GeForce RTX 2080</a></span> edition comes with pre-installed water cooling, so all you need to do is plug it into your array. The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> truly offers a one-size-fits-all solution in the difficult to navigate the world of graphics cards. It has an impressive 3.7 stars on Amazon, so you’ll be sure to get a functional and powerful product. <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">GeForce RTX 2080</a></span> is an industry leader in terms of computer hardware, being one of the largest companies in the scene. I’ll be going through the technical specifications of this product and the workload it can handle, the advanced Ray-Tracing capabilities it comes pre-loaded with, and lastly the different uses it has. Let’s get right into the review!</p><p>The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> can truly handle any workload, from content creation to gaming. Its robust specifications showcase that, and most users agree upon its unparalleled versatility. Most users purchase this card for gaming, as that’s the user base <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">GeForce RTX 2080</a></span> most often markets its products for. There are no complaints about its performance and versatility. Many users say that during demanding usage, the temperatures can get fairly high. Most users report peaks of 85-86 degrees celsius, which is fairly hot. However, using the water cooling this card was engineered to bring temperatures down to a much more favourable state. Overall, this card can handle nearly all workloads thrown at it easily when matched with popper cooling.</p><p>Specifications are what matters in our performance-hungry modern world games. The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> comes packed with 8GB of GDDR6 RAM, one of the fastest video memory types in the world. This RAM runs at a blazing fast 14,000 MHz memory speed, capable of storing and retrieving information at a nearly unheard of rate. The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> has am 1800Mhz boost clock, extremely fast! This card definitely packs a punch, and can definitely handle nearly anything. In the next section, ill be talking about this card’s most revered feature, Ray-Tracing. This card in specific has built-in water cooling support, so all you have to do is plug it into your current loop. This is a lot easier than having to add a water cooling block as some cards require. The all-metal backplate provides a premium feel and enhances the cards overall structural integrity. The <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> supports Nvidia G-Sync so you can experience truly smooth gameplay on compatible monitors. The built-in DisplayPort 1.4 and HDMI 2.0 ports are some of the most powerful modern graphical ports. NVIDIA GPU Boost technology is present in this card, allowing you to push your cards to the limit. This card also has an 8-phase power supply to keep your card safe in the event of a power surge or power loss. The built-in 9-blade dual-fan array is more than enough to keep your system cool. Adjustable RGB LED’s add to the card’s gamer aesthetic, leaving a lasting impression on those that view your rig. No user has a complaint regarding the card’s specifications, so you can rest assured you will have a well built and powerful product.</p><p>Ray-Tracing is an extremely advanced processing platform that can analyze environments in real-time and trace lighting to effectively achieve a nearly photo-realistic environment. Graphics cards with Ray-Tracing can perform up to 6X faster and are powered with AI analysis techniques. This cutting edge technology is easily the most powerful processing technique on the market, effectively tracing every ray of light to provide a picture-perfect image. Ray-Tracing also allows content-creators to run vivid simulations for further scrutiny. Ray-Tracing is a huge plus when purchasing a graphics card, and you’re certainly in luck here with the <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span>.</p><p>Gaming is what most people buy this card for, and it definitely holds up. Most users can effortlessly run their favourite games in 4K resolution at the heights of settings. The unprecedented power of this card has pressed many gaming studios to innovate further in their graphics field. Ray-Tracing is finally being adopted in the gaming industry, something they will finally utilize the full power of this card/ Not a single user has had a complaint about its performance.</p><h2 id="conclusion">Conclusion</h2><p>In conclusion, the <span><a class="product-link" href="https://www.amazon.com/dp/B07N889XT8?tag=reviewhuntr-20" target="_blank">EVGA GeForce RTX 2080</a></span> is a super graphics card no matter your need. It has all the power you could ever want and has some of the most cutting edge features on the market. Few users have any complaints about this product, so you can be sure you are getting a high-quality product. It is definitely deserving of its 3.7-star rating on Amazon.</p><div class="page-footer"><div class="page-share"><div class="sharethis-inline-share-buttons"></div></div><div class="page-tag"><a href="https://reviewhuntr.com/reviews#EVGA+GeForce" class="tag"># EVGA GeForce</a></div></div><div> ReviewHuntr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com.</div></div></div> </article><div class="post" style="display:none"><a class="post-thumbnail" style="background-image:url('/assets/img/posts/EVGA-GeForce.jpg')" href="/reviews/EVGA-GeForce-RTX-2080-Review/"></a><div class="post-content"><h2 class="post-title"><a href="/reviews/EVGA-GeForce-RTX-2080-Review/">EVGA GeForce RTX 2080 - Review</a></h2><p>The EVGA GeForce RTX 2080 is a top of the line graphics card, offering robust performance for gamers and content creators alike. It is one of the few graphics cards...</p><span class="post-author">Hamza Tariq—</span> <span class="post-words">4 minute read</span></div></div></div><div class="infinite-spinner"></div></div><script>-1!==document.location.hostname.search("reviewhuntr.com")&&(!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-121890486-4","auto"),ga("send","pageview"))</script><script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Review",
+      "headline": "EVGA GeForce RTX 2080 - Review",
+      "description": "The EVGA GeForce RTX 2080 is a top of the line graphics card, offering robust performance for gamers and content creators alike. It is one of the few graphics cards on the market that can truly handle the demands of nearly any workload. Combined with AI-powered Ray-Tracing technology, it has unmatched performance. This GeForce RTX 2080 edition comes with pre-installed water cooling, so all you need to do is plug it into your array. The EVGA GeForce RTX 2080 truly offers a one-size-fits-all solution in the difficult to navigate the world of graphics cards. It has an impressive 3.7 stars...",
+      "image": ["https://reviewhuntr.com/assets/img/posts/EVGA-GeForce.jpg"],
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://reviewhuntr.com/reviews/EVGA-GeForce-RTX-2080-Review/"
+      },
+      "datePublished": "2019-11-03 00:00:00 +0000",
+      "dateModified": "2019-11-03 00:00:00 +0000",
+      "isAccessibleForFree": "True",
+      "itemReviewed": {
+          "@type": ["Product"],
+          "name": "EVGA GeForce RTX 2080",
+          "productID": "asin:B07N889XT8",
+          "sku": "asin:B07N889XT8",
+          "review": {
+            "itemReviewed": "EVGA GeForce RTX 2080",
+            "author": {
+              "@type": "Person",
+              "name": "Hamza Tariq"
+            },
+            "reviewAspect": "Product opinion reviews",
+            "reviewBody": "The EVGA GeForce RTX 2080 is a top of the line graphics card, offering robust performance for gamers and content creators alike. It is one of the few graphics cards on the market that can truly handle the demands of nearly any workload. Combined with AI-powered Ray-Tracing technology, it has unmatched performance. This GeForce RTX 2080 edition comes with pre-installed water cooling, so all you need to do is plug it into your array. The EVGA GeForce RTX 2080 truly offers a one-size-fits-all solution in the difficult to navigate the world of graphics cards. It has an impressive 3.7 stars on Amazon, so you’ll be sure to get a functional and powerful product. GeForce RTX 2080 is an industry leader in terms of computer hardware, being one of the largest companies in the scene. I’ll be going through the technical specifications of this product and the workload it can handle, the advanced Ray-Tracing capabilities it comes pre-loaded with, and lastly the different uses it has. Let’s get right into the review!  The EVGA GeForce RTX 2080 can truly handle any workload, from content creation to gaming. Its robust specifications showcase that, and most users agree upon its unparalleled versatility. Most users purchase this card for gaming, as that’s the user base GeForce RTX 2080 most often markets its products for. There are no complaints about its performance and versatility. Many users say that during demanding usage, the temperatures can get fairly high. Most users report peaks of 85-86 degrees celsius, which is fairly hot. However, using the water cooling this card was engineered to bring temperatures down to a much more favourable state. Overall, this card can handle nearly all workloads thrown at it easily when matched with popper cooling.  Specifications are what matters in our performance-hungry modern world games. The EVGA GeForce RTX 2080 comes packed with 8GB of GDDR6 RAM, one of the fastest video memory types in the world. This RAM runs at a blazing fast 14,000 MHz memory speed, capable of storing and retrieving information at a nearly unheard of rate. The EVGA GeForce RTX 2080 has am 1800Mhz boost clock, extremely fast! This card definitely packs a punch, and can definitely handle nearly anything. In the next section, ill be talking about this card’s most revered feature, Ray-Tracing. This card in specific has built-in water cooling support, so all you have to do is plug it into your current loop. This is a lot easier than having to add a water cooling block as some cards require. The all-metal backplate provides a premium feel and enhances the cards overall structural integrity. The EVGA GeForce RTX 2080 supports Nvidia G-Sync so you can experience truly smooth gameplay on compatible monitors. The built-in DisplayPort 1.4 and HDMI 2.0 ports are some of the most powerful modern graphical ports. NVIDIA GPU Boost technology is present in this card, allowing you to push your cards to the limit. This card also has an 8-phase power supply to keep your card safe in the event of a power surge or power loss. The built-in 9-blade dual-fan array is more than enough to keep your system cool. Adjustable RGB LED’s add to the card’s gamer aesthetic, leaving a lasting impression on those that view your rig. No user has a complaint regarding the card’s specifications, so you can rest assured you will have a well built and powerful product.  Ray-Tracing is an extremely advanced processing platform that can analyze environments in real-time and trace lighting to effectively achieve a nearly photo-realistic environment. Graphics cards with Ray-Tracing can perform up to 6X faster and are powered with AI analysis techniques. This cutting edge technology is easily the most powerful processing technique on the market, effectively tracing every ray of light to provide a picture-perfect image. Ray-Tracing also allows content-creators to run vivid simulations for further scrutiny. Ray-Tracing is a huge plus when purchasing a graphics card, and you’re certainly in luck here with the EVGA GeForce RTX 2080.  Gaming is what most people buy this card for, and it definitely holds up. Most users can effortlessly run their favourite games in 4K resolution at the heights of settings. The unprecedented power of this card has pressed many gaming studios to innovate further in their graphics field. Ray-Tracing is finally being adopted in the gaming industry, something they will finally utilize the full power of this card/ Not a single user has had a complaint about its performance.  Conclusion  In conclusion, the EVGA GeForce RTX 2080 is a super graphics card no matter your need. It has all the power you could ever want and has some of the most cutting edge features on the market. Few users have any complaints about this product, so you can be sure you are getting a high-quality product. It is definitely deserving of its 3.7-star rating on Amazon.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "ratingCount": "1"
+          },
+          "offers": "",
+          "brand": {
+            "@type": "Thing",
+            "name": ""
+          },
+          "description": "EVGA GeForce RTX 2080",
+          "image": ["https://reviewhuntr.com/assets/img/posts/EVGA-GeForce.jpg"]
+      },
+      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "author": {
+          "@type": "Person",
+          "name": "Hamza Tariq",
+          "description": "",
+          "sameAs": "https://reviewhuntr.com/about",
+          "image": {
+              "@type": "ImageObject",
+              "url": ""
+          },
+          "givenName": "",
+          "familyName": "",
+          "alternateName": "Hamza Tariq",
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      },
+      "publisher": {
+          "@type": "Organization",
+          "name": "ReviewHuntr",
+          "description": "ReviewHuntr.com is creating the best reviews on the internet.",
+          "sameAs": "https://reviewhuntr.com",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://reviewhuntr.com/assets/img/logo/500pxLogo.jpg"
+          },
+          "publishingPrinciples": "https://reviewhuntr.com/about/"
+      }
+  }
+</script></body></html>
