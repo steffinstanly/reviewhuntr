@@ -1,6 +1,6 @@
 ---
 layout: post
-author: 11
+author: 7
 product: 53
 tags: [ EVGA GeForce ]
 ---
