@@ -2,7 +2,7 @@
 layout: post
 author: 7
 product: 55
-tags: [ Razer ]
+tags: [ "Razer" ]
 ---
 
 {%- include vars -%}
