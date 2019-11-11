@@ -2,7 +2,7 @@
 layout: post
 author: 5
 product: 56
-tags: [ Apple Watch ]
+tags: [ "Apple Watch" ]
 ---
 
 {%- include vars -%}
