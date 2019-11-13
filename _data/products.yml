@@ -333,15 +333,15 @@
 - id: 58
   name:  DJI Spark Remote Control Combo
   short-name:  DJI Spark  
-  imgs: [ " DJI-Spark.jpg" ]
+  imgs: [ "DJI-Spark.jpg" ]
   asin: B075TDRS2M
 - id: 59
   name:  Gravity Blanket
   short-name:  Gravity  
-  imgs: [ " Gravity-Blanket.jpg" ]
+  imgs: [ "Gravity-Blanket.jpg" ]
   asin: B07BN75Z3R
 - id: 60
   name:  Dell Inspiron 14 2-in-1 laptop
   short-name:  Dell Inspiron 14 
-  imgs: [ " Dell-Inspiron.jpg" ]
+  imgs: [ "Dell-Inspiron.jpg" ]
   asin: B07KY83DPV
