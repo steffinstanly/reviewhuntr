@@ -325,3 +325,8 @@
   short-name: Apple Watch
   imgs: [ "Apple-Watch.jpg" ]
   asin: B07XQSJ7Q5
+- id: 57
+  name: Acer Aspire 5
+  short-name: Acer Aspire 
+  imgs: [ "Acer-Aspire.jpg" ]
+  asin: B07RF1XD36
