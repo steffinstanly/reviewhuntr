@@ -350,3 +350,8 @@
   short-name:  Oculus  
   imgs: [ "Oculus-Quest.jpg" ]
   asin: B07HNW68ZC
+- id: 62
+  name:  Blendtec Total Classic Original Blender with Wildside+ Jar
+  short-name:  Blendtec Total Classic Blender 
+  imgs: [ "Blendtec-Total-Classic.jpg" ]
+  asin: B07N3C6V5G
