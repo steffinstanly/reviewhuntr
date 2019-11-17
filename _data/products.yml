@@ -337,7 +337,7 @@
   asin: B075TDRS2M
 - id: 59
   name:  Gravity Blanket
-  short-name:  Gravity  
+  short-name:  Gravity Blanket
   imgs: [ "Gravity-Blanket.jpg" ]
   asin: B07BN75Z3R
 - id: 60
@@ -362,16 +362,16 @@
   asin: B07R5QD598
 - id: 64
   name:  Aera Smart Diffuser
-  short-name:  Aera Smart 
+  short-name:  Aera Diffuser 
   imgs: [ "Aera-Smart-Diffuser.jpg" ]
   asin: B071JSCCBG
 - id: 65
   name:  Echo Show
-  short-name:  Echo  
+  short-name:  Echo Show
   imgs: [ "Echo-Show.jpg" ]
   asin: B077SXWSRP
 - id: 66
   name:  Ember Temperature Control Smart Mug
-  short-name:  Ember 
+  short-name:  Ember Smart Mug
   imgs: [ "Ember-Smart-Mug.jpg" ]
   asin: B07Z5H4TF5
