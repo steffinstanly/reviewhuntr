@@ -355,3 +355,23 @@
   short-name:  Blendtec Total Classic Blender 
   imgs: [ "Blendtec-Total-Classic.jpg" ]
   asin: B07N3C6V5G
+- id: 63
+  name:  Powerbeats Pro Totally Wireless Headphones
+  short-name:  Powerbeats Pro headphones 
+  imgs: [ "Powerbeats-Pro.jpg" ]
+  asin: B07R5QD598
+- id: 64
+  name:  Aera Smart Diffuser
+  short-name:  Aera Smart 
+  imgs: [ "Aera-Smart-Diffuser.jpg" ]
+  asin: B071JSCCBG
+- id: 65
+  name:  Echo Show
+  short-name:  Echo  
+  imgs: [ "Echo-Show.jpg" ]
+  asin: B077SXWSRP
+- id: 66
+  name:  Ember Temperature Control Smart Mug
+  short-name:  Ember 
+  imgs: [ "Ember-Smart-Mug.jpg" ]
+  asin: B07Z5H4TF5
