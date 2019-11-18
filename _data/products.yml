@@ -375,3 +375,8 @@
   short-name:  Ember Smart Mug
   imgs: [ "Ember-Smart-Mug.jpg" ]
   asin: B07Z5H4TF5
+- id: 67
+  name:  Kindle paperwhite
+  short-name:  Kindle 
+  imgs: [ "Kindle-paperwhite.jpg" ]
+  asin: B07745PV5G
