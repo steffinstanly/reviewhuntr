@@ -380,3 +380,18 @@
   short-name:  Kindle 
   imgs: [ "Kindle-paperwhite.jpg" ]
   asin: B07745PV5G
+- id: 68
+  name:  23andMe
+  short-name:  23andMe
+  imgs: [ "23andMe.jpg" ]
+  asin: B01G7PYQTM
+- id: 69
+  name:  Dash Rapid Egg Cooker
+  short-name:  Dash Egg Cooker
+  imgs: [ "Dash-Egg-Cooker.jpg" ]
+  asin: B00DDXWFY0
+- id: 70
+  name:  Rocketbook Wave Smart Notebook
+  short-name:  Rocketbook 
+  imgs: [ "Rocketbook-Smart-Notebook.jpg" ]
+  asin: B01GU6TINM
