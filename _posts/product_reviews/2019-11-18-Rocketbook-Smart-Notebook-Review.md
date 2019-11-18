@@ -11,7 +11,7 @@ With the most recent effects of climate change on Earth, more and more people ar
 
   
 
-But Greta Thunberg, Al Gore, and Leonardo DiCaprio aren’t the only individuals who are interested in preventing or mitigating the harmful effects of climate change. Fascinating companies such as {{ sn-link }}are also doing their part to create products that are great for consumers and the environment alike.
+But Greta Thunberg, Al Gore, and Leonardo DiCaprio aren’t the only individuals who are interested in preventing or mitigating the harmful effects of climate change. Fascinating companies such as {{ sn-link }} are also doing their part to create products that are great for consumers and the environment alike.
 
   
 
