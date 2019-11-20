@@ -405,3 +405,13 @@
   short-name:  Huion  
   imgs: [ "Huion-KAMVAS.jpg" ]
   asin: B072N2C2PB
+- id: 73
+  name:  Beats EP Headphones
+  short-name:  Beats EP On-Ear Headphones  
+  imgs: [ "Beats-EP-Headphones.jpg" ]
+  asin: B01LX8OJMT
+- id: 74
+  name:  ICEWATER 3 in 1 Water Bottle
+  short-name:  ICEWATER 3 in 1 bottle  
+  imgs: [ "ICEWATER-Water-Bottle.jpg" ]
+  asin: B07KW6GH6Y
