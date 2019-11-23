@@ -415,3 +415,13 @@
   short-name:  ICEWATER 3 in 1 bottle  
   imgs: [ "ICEWATER-Water-Bottle.jpg" ]
   asin: B07KW6GH6Y
+- id: 75
+  name:  PhoneSoap 3 UV Smartphone Sanitizer
+  short-name:  PhoneSoap 3 UV   
+  imgs: [ "PhoneSoap-3-UV.jpg" ]
+  asin: B072R6MJKQ
+- id: 76
+  name:  AeroGarden Bounty
+  short-name:  AeroGarden Bounty Basic  
+  imgs: [ "AeroGarden-Bounty.jpg" ]
+  asin: B07TDVG5L6
