@@ -425,3 +425,23 @@
   short-name:  AeroGarden Bounty Basic  
   imgs: [ "AeroGarden-Bounty.jpg" ]
   asin: B07TDVG5L6
+- id: 77
+  name:  Dyson Pure Cool
+  short-name:  Pure Cool
+  imgs: [ "Dyson-Pure.jpg" ]
+  asin: B071HMNTPM
+- id: 78
+  name:  Kempf Go Away Doormat
+  short-name:  Kempf Doormat  
+  imgs: [ "Kempf-Doormat.jpg" ]
+  asin: B000I1UYXO
+- id: 79
+  name:  Levitating Fern
+  short-name:  Fern  
+  imgs: [ "Levitating-Fern.jpg" ]
+  asin: B075RRZS3G
+- id: 80
+  name:  Skatecycle
+  short-name:  Skatecycle  
+  imgs: [ "Skatecycle.jpg" ]
+  asin: B009D1LQRS
