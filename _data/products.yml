@@ -445,3 +445,18 @@
   short-name:  Skatecycle  
   imgs: [ "Skatecycle.jpg" ]
   asin: B009D1LQRS
+- id: 81
+  name:  The World’s Smartest Indoor Garden By Click & Grow
+  short-name:  World’s Smartest Indoor Garden  
+  imgs: [ "Smartest-Indoor-Garden.jpg" ]
+  asin: B075QQ4SL8
+- id: 82
+  name:  Lightahead LED Mini Desktop Jellyfish Lamp
+  short-name:  Lightahead Jellyfish Lamp  
+  imgs: [ "Lightahead-Jellyfish-Lamp.jpg" ]
+  asin: B075314RH2
+- id: 83
+  name:  Masdio by Ampulla Bedside Lamp
+  short-name:  Masdio lamp  
+  imgs: [ "Masdio-lamp.jpg" ]
+  asin: B076Y5X97Y
