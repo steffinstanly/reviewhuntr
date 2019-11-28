@@ -475,3 +475,18 @@
   short-name:  DOG CARE  
   imgs: [ "DOG-CARE.jpg" ]
   asin: B07SR83Y1W
+- id: 87
+  name:  Ottoson Outward Hound Brick Puzzle
+  short-name:  Outward Hound  
+  imgs: [ "Outward-Hound.jpg" ]
+  asin: B0711Y9XTF
+- id: 88
+  name:  PUPTECK Dog Chew Rope Toy
+  short-name:  PUPTECK Chew Toy  
+  imgs: [ "PUPTECK-Chew-Toy.jpg" ]
+  asin: B07ZR955FL
+- id: 89
+  name:  VARRAM Pet Fitness Robot
+  short-name:  VARRAM Fitness Robot  
+  imgs: [ "VARRAM-Fitness-Robot.jpg" ]
+  asin: B07RRD3JGQ
