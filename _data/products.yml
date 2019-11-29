@@ -490,3 +490,18 @@
   short-name:  VARRAM Fitness Robot  
   imgs: [ "VARRAM-Fitness-Robot.jpg" ]
   asin: B07RRD3JGQ
+- id: 90
+  name:  Asus C223NA-DH02-RD Chromebook 11.6"
+  short-name:  Asus Chromebook 12  
+  imgs: [ "Asus-Chromebook.jpg" ]
+  asin: B07H5B75SY
+- id: 91
+  name:  FUZZU Dog Toy With Squeaker
+  short-name:  FUZZU Dog Toy  
+  imgs: [ "FUZZU-Dog-Toy.jpg" ]
+  asin: B01ICEDPMU
+- id: 92
+  name:  Samsung Galaxy Watch Active2
+  short-name:  Samsung   
+  imgs: [ "Samsung-Galaxy-Watch.jpg" ]
+  asin: B07YNTSSP6
