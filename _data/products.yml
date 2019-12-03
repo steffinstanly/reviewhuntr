@@ -520,3 +520,23 @@
   short-name:  massage cushion
   imgs: [ "Snailax-Massage-Cushion.jpg" ]
   asin: B07MGRDWB5
+- id: 96
+  name:  Fairywill Electric Toothbrush
+  short-name:  Fairywill Toothbrush
+  imgs: [ "Fairywill-Electric-Toothbrush.jpg" ]
+  asin: B06VWD8NY3
+- id: 97
+  name:  OneOdio AptX Low Latency Bluetooth Over Ear Headphones
+  short-name:  OneOdio AptX
+  imgs: [ "OneOdio-AptX.jpg" ]
+  asin: B07MV3K4QZ
+- id: 98
+  name:  Sharper Image Virtual Ping Pong Set
+  short-name:  Ping Pong Set
+  imgs: [ "Ping-Pong-Set.jpg" ]
+  asin: B07BRH8VPT
+- id: 99
+  name:  Turtle Beach Elite Atlas Aero Wireless PC Gaming Headset
+  short-name:  Turtle Beach Elite Atlas Aero
+  imgs: [ "Turtle-Beach-Elite.jpg" ]
+  asin: B07W5JG77B
