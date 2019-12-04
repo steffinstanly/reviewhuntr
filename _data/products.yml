@@ -540,3 +540,18 @@
   short-name:  Turtle Beach Elite Atlas Aero
   imgs: [ "Turtle-Beach-Elite.jpg" ]
   asin: B07W5JG77B
+- id: 100
+  name:  Call of Duty: Modern Warfare
+  short-name:  Call of Duty
+  imgs: [ "Call-of-Duty.jpg" ]
+  asin: B07SMLMFC6
+- id: 101
+  name:  Luigi's Mansion 3 for Nintendo Switch
+  short-name:  Luigi's Mansion 3
+  imgs: [ "Luigis-Mansion.jpg" ]
+  asin: B07SK4W1VJ
+- id: 102
+  name:  Samsung Galaxy Camera 2 16.3MP
+  short-name:  Samsung Galaxy Camera 2
+  imgs: [ "Samsung-Galaxy-Camera.jpg" ]
+  asin: B00HV6KGV4
