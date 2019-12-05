@@ -555,3 +555,23 @@
   short-name:  Samsung Galaxy Camera 2
   imgs: [ "Samsung-Galaxy-Camera.jpg" ]
   asin: B00HV6KGV4
+- id: 103
+  name:  Breo iSee 3S Electric Eye Massager
+  short-name:  Breo iSee 3S
+  imgs: [ "Breo-iSee-3S.jpg" ]
+  asin: B07H94SMCQ
+- id: 104
+  name:  Miroco LED Bright White Therapy Light
+  short-name:  Miroco LED Bright White lamp
+  imgs: [ "Miroco-LED-lamp.jpg" ]
+  asin: B07PJWVC9S
+- id: 105
+  name:  Samsung Galaxy Watch Active 40mm
+  short-name:  Samsung Galaxy Watch Active
+  imgs: [ "Samsung-Galaxy-Watch.jpg" ]
+  asin: B07T1WRGHY
+- id: 106
+  name:  Turtle Beach Atlas One PC Gaming Headset
+  short-name:  Turtle Beach Atlas One
+  imgs: [ "Turtle-Beach-Atlas.jpg" ]
+  asin: B07G7VHH8Z
